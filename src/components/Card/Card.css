@@ -1,0 +1,73 @@
+.cardBlock {
+  width: 400px;
+  height: 400px;
+  perspective: 1000px;
+  margin-right: 20px;
+}
+
+.flipCard {
+  position: relative;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  transition: transform 0.9s;
+  transform-style: preserve-3d;
+}
+
+.flipCard:hover .flipCard {
+  transform: rotateY(180deg); /*lateral rotation*/
+}
+
+.flipCard__front, .flipCard__back {
+  position: absolute;
+  width: 100%;
+  height: 100%; /*Safari*/
+  backface-visibility: hidden;
+}
+
+.flipCard__front--picture {
+  width: 400px;
+  height: 400px;
+}
+
+.flipCard__back {
+  transform: rotateY(180deg);
+  background-color: antiquewhite;
+}
+
+.flipCard__back--text {
+  height: 100%;
+  background-color: antiquewhite;
+}
+
+.flipCard__back * {
+  background-color: antiquewhite;
+  color: rgb(33, 39, 37);
+}
+
+.flipCard__back h2 {
+  padding-top: 5px;
+  font-weight: 700;
+}
+
+.shadow-text {
+  display: block;
+  position: relative;
+  bottom: 50px;
+  color: rgba(255, 255, 255, 0.788);
+  background-color: rgba(0, 0, 0, 0.429);
+  font-size: 2em;
+  text-decoration: none;
+}
+
+.flipCard__back--text ul {
+  display: flex;
+  justify-content: center;
+  -webkit-padding-start: 0px;
+          padding-inline-start: 0px;
+}
+
+.flipCard__back--text li {
+  font-size: 1em;
+  padding: 10px;
+}/*# sourceMappingURL=Card.css.map */

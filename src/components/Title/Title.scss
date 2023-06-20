@@ -1,0 +1,13 @@
+@import '../../styles/styles.scss';
+
+.mainTitle{
+    color: $main-text-color;
+    text-align: center;
+    font-size: 1.5em;
+    @media (min-width:700px){
+        font-size: 1.8em;
+    }
+    @media (min-width:1000px){
+        font-size: 2.5em;
+    }
+}

@@ -1,0 +1,23 @@
+a {
+  color: #dddeee;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.mainTitle {
+  color: #dddeee;
+  text-align: center;
+  font-size: 1.5em;
+}
+@media (min-width: 700px) {
+  .mainTitle {
+    font-size: 1.8em;
+  }
+}
+@media (min-width: 1000px) {
+  .mainTitle {
+    font-size: 2.5em;
+  }
+}/*# sourceMappingURL=Title.css.map */

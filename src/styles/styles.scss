@@ -1,0 +1,13 @@
+$main-text-color:#ebecff;
+$main-background-color: #09070e;
+
+a{
+    color: $main-text-color;
+    text-decoration: none;
+    &:hover{
+        text-decoration: underline;
+    }
+}
+ul li{
+    list-style: none;
+}

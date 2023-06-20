@@ -1,0 +1,14 @@
+@import './styles.scss';
+
+body{
+    background-color: $main-background-color;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+.presentation{
+    margin-top: 3%;
+    display: flex;
+    justify-content: space-between;
+}

@@ -1,0 +1,44 @@
+@import '../../styles/styles.scss';
+
+.nav{
+    display: flex;
+    color: $main-text-color;
+    align-items: center;
+    &__btn{
+        color: $main-text-color;
+        background-color: $main-background-color;
+        border: none;
+        margin: 0px 10px;
+        & img{
+            height: 30px;
+        }
+    }
+    &__btn--open{
+        transition: transform 400ms ease-in;
+        transform: rotate(180deg);
+    }
+    &__btn--close{
+        transition: transform 400ms ease-in;
+        transform: rotate(0deg);
+    }
+    &__bloc{
+        box-sizing: border-box;
+        display: flex;
+        padding: 0px;
+        & li{
+            padding: 8px;
+        }
+    }
+    &__bloc--open{
+        max-width: 800px;
+        transition: max-width 900ms ease-in-out;
+        transform-origin: left;
+        overflow: hidden;
+    }
+    &__bloc--close{
+        transform-origin: left;
+        max-width: 0px;
+        transition: max-width 900ms ease-in-out;
+        overflow: hidden;
+    }
+}

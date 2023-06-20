@@ -1,0 +1,28 @@
+a {
+  color: #dddeee;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.fullContent {
+  background-image: url("../assets/astres.jpg");
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100vh;
+}
+
+.textToRead {
+  color: #dddeee;
+  text-align: center;
+}
+
+.webLink {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  text-align: center;
+}/*# sourceMappingURL=Home.css.map */
