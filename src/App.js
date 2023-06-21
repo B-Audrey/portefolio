@@ -3,7 +3,9 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import SmallerPage from './components/SmallerPage';
 import Home from './pages/Home';
 import WrongPage from './pages/WrongPage';
-import Informations from './pages/Informations'
+import Informations from './pages/Informations';
+import Contact from './pages/Contact';
+import TicTacToe from './pages/TicTacToe';
 
 function App() {
   return (
@@ -12,6 +14,8 @@ function App() {
       <Router>
         <Routes>
           <Route path='/' element={<Home />}/>
+          <Route path='/contact' element={<Contact />} />
+          <Route path='/tictactoe' element={<TicTacToe />} />
           <Route path='/informations' element={<Informations />}/>
           <Route path='/error' element={<WrongPage />}/>
           <Route path='*' element={<WrongPage />}/>

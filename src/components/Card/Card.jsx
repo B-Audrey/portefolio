@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import photo from '../../assets/Audrey_mini.jpg';
 import './Card.scss';
 
@@ -15,9 +16,9 @@ const Card = () => {
                                 <h3>BONIS Audrey</h3>
                                 <h4>Mes Loisirs</h4>
                                 <ul>
-                                    <li><i class="fa-solid fa-dice"></i>Jeux</li>
-                                    <li><i class="fa-solid fa-music"></i>Musique</li>
-                                    <li><i class="fa-solid fa-person-walking"></i>Promenades</li>
+                                    <li><i class="fa-solid fa-dice"></i>&nbsp; Jeux</li>
+                                    <li><i class="fa-solid fa-music"></i>&nbsp; Musique</li>
+                                    <li><i class="fa-solid fa-person-walking"></i>&nbsp; Promenades</li>
                                 </ul>
                                 <h4>Mes Valeurs</h4>
                                 <ul>
@@ -26,9 +27,9 @@ const Card = () => {
                                     <li>Créativité</li>
                                 </ul>
                                 <h4>Un projet ?</h4>
-                                <p>Pour échanger sur vos missions et mes compétences</p>
+                                <p className='flipCardSmall'>Pour échanger sur vos missions et mes compétences</p>
                             </div>
-                            <a class="shadow-text"href="#contact">CONTACTEZ-MOI</a>
+                            <Link class="shadow-text" to='/contact'>CONTACTEZ-MOI</Link>
                         </div>
                     </div>
            </aside>

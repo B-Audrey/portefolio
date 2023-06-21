@@ -2,11 +2,15 @@
 
 .langages{
     color: $main-text-color;
-    width: calc(100% - 400px);
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    width: 100%;
+    margin-top: 5%;
+    @media(min-width:1000px){
+        width: calc(100% - 400px);
+    }
     &__bloc{
         width: 100%;
         text-align: center;

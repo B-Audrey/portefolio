@@ -2,8 +2,12 @@
 
 .nav{
     display: flex;
+    flex-direction: column;
     color: $main-text-color;
     align-items: center;
+    @media(min-width:600px){
+        flex-direction: row;; 
+    }
     &__btn{
         color: $main-text-color;
         background-color: $main-background-color;
@@ -15,11 +19,18 @@
     }
     &__btn--open{
         transition: transform 400ms ease-in;
-        transform: rotate(180deg);
+        transform: rotate(-90deg);
+        @media(min-width:600px){
+            transform: rotate(180deg); 
+        }
+        
     }
     &__btn--close{
         transition: transform 400ms ease-in;
-        transform: rotate(0deg);
+        transform: rotate(90deg);
+        @media(min-width:600px){
+            transform: rotate(0deg); 
+        }
     }
     &__bloc{
         box-sizing: border-box;
@@ -30,15 +41,25 @@
         }
     }
     &__bloc--open{
-        max-width: 800px;
-        transition: max-width 900ms ease-in-out;
-        transform-origin: left;
+        max-height: 200px;
+        transition: max-height 900ms ease-in-out;
+        transform-origin: top;
         overflow: hidden;
+        @media(min-width:600px){
+            max-width: 800px;
+            transition: max-width 900ms ease-in-out;
+            transform-origin: left;
+        }
     }
     &__bloc--close{
-        transform-origin: left;
-        max-width: 0px;
-        transition: max-width 900ms ease-in-out;
+        transform-origin: top;
+        max-height: 0px;
+        transition: max-height 900ms ease-in-out;
         overflow: hidden;
+        @media(min-width:600px){
+            transform-origin: left;
+            max-width: 0px;
+            transition: max-width 900ms ease-in-out;
+        }
     }
 }
