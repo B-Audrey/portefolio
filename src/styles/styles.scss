@@ -1,11 +1,18 @@
 $main-text-color:#ebecff;
 $main-background-color: #09070e;
+$main-light-color: lightblue ;
+
+$second-color:cornflowerblue;
+
 
 a{
     color: $main-text-color;
     text-decoration: none;
     &:hover{
         text-decoration: underline;
+    }
+    &:active{
+        color: $second-color;
     }
 }
 ul li{
