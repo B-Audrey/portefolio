@@ -7,6 +7,9 @@ import Header from '../components/Header/Header';
 import Nav from "../components/Nav/Nav";
 import Ressources from "../components/Ressources/Ressources";
 import Bio from "../components/Bio/Bio";
+import ImageBloc from "../components/ImageBloc/ImageBloc";
+import baloonAstronaute from "../assets/baloonAstronaute.png"
+
 
 const Home = () => {
     let [data, setData] = useState({});
@@ -36,14 +39,20 @@ const Home = () => {
         </header>
         <main className="mainContent">
             <article className="profil" id="profil">
+                <h3>Profil</h3>
                 <div className="profil__perso">
                   <Card />
                   <Bio />
                 </div>
-                <Ressources className="profil__pro"  />
+                <h3>Compétences</h3>
+                <div className="profil__pro">
+                  <Ressources   />
+                  <ImageBloc img={baloonAstronaute}/>
+                </div>
+                
             </article>
             <aside className="asideGallery">
-              <h2 className="asideGallery__title">Mes projets réalisés</h2>
+              <h3>Projets</h3>
               <p className="asideGallery__text">Cliquez sur un projet pour consulter le code</p>
               { haveData ? <Gallery data={data}/> : null }
             </aside>

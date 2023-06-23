@@ -14,23 +14,15 @@
         margin: 1% 0%;
     }
     &__work{
-        color: $main-light-color;
         text-align: center;
-        font-size: 1.5em;
         margin: 5% 0% 0% 0%;
         padding-right: 20px;
-        @media (min-width:600px){
-            font-size: 2.5em;
+        @media (min-width:600px){ 
             margin: 0%;
-        }
-        @media (min-width:1000px){
-            font-size: 4em;
         }
     }
     &__name{
-        font-weight: 400;
         margin: 0% 0% 5% 0%;
-        color: $second-color;
         @media (min-width:600px){
             margin: 0%;
         }

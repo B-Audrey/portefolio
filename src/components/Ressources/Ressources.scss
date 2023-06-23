@@ -8,12 +8,19 @@
     justify-content: center;
     width: 100%;
     &__title{
-        color: $main-light-color;
+        margin: 1% 0%;
+        background-color: $main-text-color;
+        filter: brightness(80%);
+        padding: 1%;
+        border-radius: 10px;
     }
     &__bloc{
         width: 100%;
         text-align: center;
         margin: 4% 0%;
+        @media(min-width:1000px){
+            margin: 1% 0%;
+        }
 }
     &__list{
         display: flex;
@@ -28,7 +35,6 @@
     }
 }
 .ressources__list .fa-brands, .ressources .fa-solid {
-    color: $second-color;
     font-size: 2em;
     padding: 10px 0px;
 }

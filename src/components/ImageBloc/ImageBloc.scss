@@ -1,0 +1,15 @@
+@import '../../styles/styles.scss';
+
+.banner{
+    width: 40%;
+    @media (min-width: 600px) {
+        margin: 0%;
+    }
+    @media (min-width: 1000px){
+        width: 40%;
+    }
+    &__image {
+        object-fit: cover;
+        width: 100%;
+    }
+}

@@ -1,23 +1,114 @@
 a {
-  color: #dddeee;
+  color: #ebecff;
   text-decoration: none;
 }
 a:hover {
   text-decoration: underline;
 }
-
-.mainTitle {
-  color: #dddeee;
-  text-align: center;
-  font-size: 1.5em;
+a:active {
+  color: cornflowerblue;
 }
-@media (min-width: 700px) {
-  .mainTitle {
-    font-size: 1.8em;
+
+ul li {
+  list-style: none;
+}
+
+h1 {
+  font-size: 1.8em;
+  font-weight: 700;
+  color: lightblue;
+}
+@media (min-width: 600px) {
+  h1 {
+    font-size: 2.5em;
   }
 }
 @media (min-width: 1000px) {
-  .mainTitle {
+  h1 {
+    font-size: 4em;
+  }
+}
+
+h2, h4 {
+  font-weight: 400;
+  color: cornflowerblue;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-weight: 500;
+  color: lightblue;
+}
+@media (min-width: 600px) {
+  h3 {
+    font-size: 2em;
+  }
+}
+@media (min-width: 1000px) {
+  h3 {
     font-size: 2.5em;
+  }
+}
+
+h4 {
+  font-size: 1em;
+}
+@media (min-width: 600px) {
+  h4 {
+    font-size: 1.5em;
+  }
+}
+@media (min-width: 1000px) {
+  h4 {
+    font-size: 2em;
+  }
+}
+
+p {
+  color: #ebecff;
+}
+
+body {
+  background-color: #09070e;
+}
+
+i {
+  color: cornflowerblue;
+}
+
+.title {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  align-items: center;
+}
+@media (min-width: 600px) {
+  .title {
+    flex-direction: row;
+    margin: 3% 0%;
+  }
+}
+@media (min-width: 1000px) {
+  .title {
+    margin: 1% 0%;
+  }
+}
+.title__work {
+  text-align: center;
+  margin: 5% 0% 0% 0%;
+  padding-right: 20px;
+}
+@media (min-width: 600px) {
+  .title__work {
+    margin: 0%;
+  }
+}
+.title__name {
+  margin: 0% 0% 5% 0%;
+}
+@media (min-width: 600px) {
+  .title__name {
+    margin: 0%;
   }
 }/*# sourceMappingURL=Title.css.map */
