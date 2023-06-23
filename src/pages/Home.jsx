@@ -1,30 +1,56 @@
-import { Link } from "react-router-dom"
-import '../styles/Home.scss'
-import Title from "../components/Title/Title"
-import Autotext from "../components/Autotext/Autotext"
+import Card from "../components/Card/Card";
+import Footer from '../components/Footer/Footer';
+import '../styles/Home.scss';
+import Gallery from "../components/Gallery/Gallery";
+import { useEffect, useState } from "react";
+import Header from '../components/Header/Header';
+import Nav from "../components/Nav/Nav";
+import Ressources from "../components/Ressources/Ressources";
+import Bio from "../components/Bio/Bio";
 
 const Home = () => {
-    return(
-        <div className="fullContent">
-            <Title />
-            <div className="textToRead">
-            <Autotext />
-                <div className='webLink'>
-                    <Link to="/informations" className="page__link">
-                        <i className="fa-solid fa-meteor"></i>
-                        &nbsp; Atterrir sur mon profil
-                    </Link>
-                    <Link to="/tictactoe" className="page__link">
-                        <i className="fa-solid fa-table-cells-large"></i>
-                        &nbsp; Jouer au morpion avec un collegue
-                    </Link>
-                    <Link to="/contact" className="page__link">
-                        <i className="fa-solid fa-satellite-dish"></i>
-                        &nbsp; Entrer en contact
-                    </Link>
+    let [data, setData] = useState({});
+    let [haveData, setHaveData] = useState(false);
+  
+    useEffect(()=>{
+      const fetchData = async () => {
+        try{
+          let response = await fetch('./data.json');
+          let dataToDisplay = await response.json();
+          setData(dataToDisplay);
+          setHaveData(true)
+        }
+        catch(error){
+          console.error(error)
+        }
+      }
+    fetchData()
+    }, [])
+  
+    console.log(data)
+    return (
+        <>
+        <header>
+            <Header />
+            <Nav />
+        </header>
+        <main className="mainContent">
+            <article className="profil" id="profil">
+                <div className="profil__perso">
+                  <Card />
+                  <Bio />
                 </div>
-            </div>
-        </div>
+                <Ressources className="profil__pro"  />
+            </article>
+            <aside className="asideGallery">
+              <h2 className="asideGallery__title">Mes projets réalisés</h2>
+              <p className="asideGallery__text">Cliquez sur un projet pour consulter le code</p>
+              { haveData ? <Gallery data={data}/> : null }
+            </aside>
+        </main>
+    
+        {/* <Footer /> */}
+        </>
     )
 }
 

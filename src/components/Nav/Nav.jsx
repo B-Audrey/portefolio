@@ -1,7 +1,7 @@
-import { NavLink } from "react-router-dom";
 import { useState } from "react";
 import leftArrow from '../../assets/leftArrow.png';
 import './Nav.scss';
+import { HashLink } from "react-router-hash-link";
 
 const Nav = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -13,9 +13,9 @@ const Nav = () => {
                 <img src={leftArrow} alt="open or close"></img>
             </button>
             <ul className={`nav__bloc nav__bloc${isOpen ? '--open' : '--close'}`}>
-                    <li><NavLink to="#contact">Contact</NavLink></li>
-                    <li><NavLink to="#knowledge">Compétences</NavLink></li>
-                    <li><NavLink to="#realisations">Réalisations</NavLink></li>
+                <li><HashLink to="#profil">Profil</HashLink></li>
+                <li><HashLink to="#competences">Compétences</HashLink></li>
+                <li><HashLink to="#realisations">Réalisations</HashLink></li>
             </ul>
         </nav>
     

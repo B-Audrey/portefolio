@@ -1,0 +1,21 @@
+@import '../../../styles/styles.scss';
+
+.autotext{
+    margin-top: 2%;
+    width: 100vw;
+    position: relative;
+    left: -6%;
+    background-image: url('../../../assets/astres.jpg');
+    background-size: cover;
+    height: 90vh;
+    @media (min-width:1400px){
+        width: 100%;
+        position: static;
+    }
+    & span{
+        font-size: 2em;
+        color: $main-text-color;
+        text-align: center;
+        padding: 20% 10%;
+    }
+}

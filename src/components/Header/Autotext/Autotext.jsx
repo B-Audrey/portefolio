@@ -6,7 +6,7 @@ const Autotext = () => {
     <div className='autotext'>
         <TypeAnimation
         sequence={[
-            'Bonjour, je suis Audrey. Bienvenue sur ma page web. Où souahitez vous aller ?',
+            'Bonjour, je suis Audrey. Bienvenue sur ma page web. Que souhaitez vous faire ?',
         ]}
         wrapper="span"
         cursor={true}

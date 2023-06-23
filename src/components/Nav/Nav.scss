@@ -1,18 +1,23 @@
 @import '../../styles/styles.scss';
 
 .nav{
+    margin: 2% 0%;
+    width: 100%;
+    justify-content: center;
     display: flex;
     flex-direction: column;
     color: $main-text-color;
     align-items: center;
-    @media(min-width:600px){
-        flex-direction: row;; 
+    @media(min-width:1000px){
+        flex-direction: row;
     }
     &__btn{
-        color: $main-text-color;
         background-color: $main-background-color;
         border: none;
-        margin: 0px 10px;
+        margin: 1% 0%;
+        @media(min-width:1000px){
+            margin: 0% 1%;
+        }
         & img{
             height: 30px;
         }
@@ -20,7 +25,7 @@
     &__btn--open{
         transition: transform 400ms ease-in;
         transform: rotate(-90deg);
-        @media(min-width:600px){
+        @media(min-width:1000px){
             transform: rotate(180deg); 
         }
         
@@ -28,7 +33,7 @@
     &__btn--close{
         transition: transform 400ms ease-in;
         transform: rotate(90deg);
-        @media(min-width:600px){
+        @media(min-width:1000px){
             transform: rotate(0deg); 
         }
     }
@@ -36,8 +41,18 @@
         box-sizing: border-box;
         display: flex;
         padding: 0px;
+        margin: 0px 0px 20px 0px;
+        @media(min-width:1000px){
+            margin: 0px;
+        }
         & li{
-            padding: 8px;
+            padding: 0px 10px;
+            @media(min-width:600px){
+                padding: 0px 25px;
+            }
+            @media(min-width:1000px){
+                padding: 0px 50px;
+            }
         }
     }
     &__bloc--open{
@@ -45,7 +60,7 @@
         transition: max-height 900ms ease-in-out;
         transform-origin: top;
         overflow: hidden;
-        @media(min-width:600px){
+        @media(min-width:1000px){
             max-width: 800px;
             transition: max-width 900ms ease-in-out;
             transform-origin: left;
@@ -56,10 +71,13 @@
         max-height: 0px;
         transition: max-height 900ms ease-in-out;
         overflow: hidden;
-        @media(min-width:600px){
+        @media(min-width:1000px){
             transform-origin: left;
             max-width: 0px;
             transition: max-width 900ms ease-in-out;
         }
     }
+}
+.active{
+    color: $second-color;
 }

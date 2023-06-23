@@ -1,0 +1,13 @@
+@import '../../styles/styles.scss';
+
+
+.bio{
+    box-sizing: border-box;
+    color: $main-text-color;
+    text-align: justify;
+    width: 80%;
+    @media(min-width:1000px){
+        width: calc(100% - 400px);
+        padding: 10%;
+    }
+}
