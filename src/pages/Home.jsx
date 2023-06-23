@@ -11,6 +11,8 @@ import ImageBloc from "../components/ImageBloc/ImageBloc";
 import baloonAstronaute from "../assets/baloonAstronaute.png"
 import fuseeAstronaute from '../assets/fuseeAustronaute.png'
 import computerAstronaute from '../assets/astronaute.png'
+import cv from '../doc/CV_BONIS_Audrey.pdf'
+import Button from "../components/Button/Button";
 
 
 const Home = () => {
@@ -35,7 +37,7 @@ const Home = () => {
     console.log(data)
     return (
         <>
-        <header>
+        <header id='home'>
             <Header />
             <Nav />
         </header>
@@ -52,16 +54,26 @@ const Home = () => {
                   <ImageBloc img={baloonAstronaute}/>
                 </div>
             </article>
-            <aside className="asideGallery">
+            <article className="asideGallery">
               <h3>Projets</h3>
               <div className="galleryContent">
               <ImageBloc img={computerAstronaute}/>
               { haveData ? <Gallery data={data}/> : null } 
               </div>
+            </article>
+            <aside>
+              <h3>Contact</h3>
+              <div className="contact">
+                <p>Vous pouvez me contacter par email à l'adresse : <strong>bonis.audreyy@gmail.com</strong> ou via le</p>
+                <Button text='Formulaire de contact' link="/contact"/>
+              </div>
+              
             </aside>
         </main>
-    
-        {/* <Footer /> */}
+        <div className='footerImg'>
+          <ImageBloc img={fuseeAstronaute} />
+        </div>
+        <Footer cv={cv} />
         </>
     )
 }

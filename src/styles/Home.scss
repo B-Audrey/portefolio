@@ -2,7 +2,7 @@
 
 h3{
     text-align: center;
-    margin: 8% 0%;
+    margin: 8% 0% 4% 0%;
 }
 .profil{
     &__perso{
@@ -29,5 +29,31 @@ h3{
     flex-direction: column;
     @media(min-width:1000px){
         flex-direction: row;
+    }
+}
+.footerImg{
+    width: 100%;
+    padding-top: 100px;
+    margin: auto;
+    @media(min-width:600px){
+        width: 70%;
+    }
+    @media(min-width:1000px){
+        width: 50%;
+    }
+}
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    @media(min-width:600px){
+        width: 90%;
+        font-size: 1.1em;
+    }
+    @media(min-width:1000px){
+        font-size: 1.2em;
     }
 }

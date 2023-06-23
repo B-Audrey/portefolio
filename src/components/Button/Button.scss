@@ -1,0 +1,23 @@
+@import  '../../styles/styles.scss';
+
+.button{
+    background-color: $main-light-color;
+    color: $main-background-color !important;
+    border-radius: 10px;
+    border: 1px solid $main-background-color;
+    padding: 10px;
+    height: 40px;
+    @media(min-width:600px){
+        height: 50px;
+        font-size: 1.1em;
+    }
+    @media(min-width:1000px){
+        height: 60px;
+        font-size: 1.2em;
+    }
+    & a{
+        color: $main-background-color !important;
+        height: 100%;
+        width: 100%;
+    }
+}
