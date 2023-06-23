@@ -9,6 +9,8 @@ import Ressources from "../components/Ressources/Ressources";
 import Bio from "../components/Bio/Bio";
 import ImageBloc from "../components/ImageBloc/ImageBloc";
 import baloonAstronaute from "../assets/baloonAstronaute.png"
+import fuseeAstronaute from '../assets/fuseeAustronaute.png'
+import computerAstronaute from '../assets/astronaute.png'
 
 
 const Home = () => {
@@ -46,15 +48,16 @@ const Home = () => {
                 </div>
                 <h3>Compétences</h3>
                 <div className="profil__pro">
-                  <Ressources   />
+                  <Ressources />
                   <ImageBloc img={baloonAstronaute}/>
                 </div>
-                
             </article>
             <aside className="asideGallery">
               <h3>Projets</h3>
-              <p className="asideGallery__text">Cliquez sur un projet pour consulter le code</p>
-              { haveData ? <Gallery data={data}/> : null }
+              <div className="galleryContent">
+              <ImageBloc img={computerAstronaute}/>
+              { haveData ? <Gallery data={data}/> : null } 
+              </div>
             </aside>
         </main>
     

@@ -76,6 +76,11 @@ i {
   color: cornflowerblue;
 }
 
+h3 {
+  text-align: center;
+  margin: 8% 0%;
+}
+
 .profil__perso {
   display: flex;
   flex-direction: column;
@@ -99,28 +104,12 @@ i {
   }
 }
 
-h3 {
-  text-align: center;
-  margin: 8% 0%;
+.galleryContent {
+  display: flex;
+  flex-direction: column;
 }
-
-.asideGallery__title {
-  color: #ebecff;
-  font-size: 2em;
-  text-align: center;
-  margin: 10% 0%;
-}
-@media (min-width: 600px) {
-  .asideGallery__title {
-    margin: 5% 0%;
+@media (min-width: 1000px) {
+  .galleryContent {
+    flex-direction: row;
   }
-}
-@media (min-width: 600px) {
-  .asideGallery__title {
-    margin: 3% 0%;
-  }
-}
-.asideGallery__text {
-  color: #ebecff;
-  text-align: center;
 }/*# sourceMappingURL=Home.css.map */

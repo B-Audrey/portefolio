@@ -30,7 +30,7 @@
     {
         "id":"005",
         "title":"Nina Carducci",
-        "cover":"./assets/nina.webp",
+        "cover":"./assets/nina.png",
         "link": "https://github.com/B-Audrey/P5-SEO",
         "theme": ["javaScript", "css", "html"]
     },

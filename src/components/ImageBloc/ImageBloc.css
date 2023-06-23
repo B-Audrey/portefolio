@@ -78,16 +78,7 @@ i {
 
 .banner {
   width: 40%;
-}
-@media (min-width: 600px) {
-  .banner {
-    margin: 0%;
-  }
-}
-@media (min-width: 1000px) {
-  .banner {
-    width: 40%;
-  }
+  margin: auto;
 }
 .banner__image {
   -o-object-fit: cover;

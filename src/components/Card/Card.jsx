@@ -13,21 +13,20 @@ const Card = () => {
                         </div>
                         <div class="flipCard__back">
                             <div class="flipCard__back--text">
-                                <h3>BONIS Audrey</h3>
-                                <h4>Mes Loisirs</h4>
+                                <h4>BONIS Audrey</h4>
+                                <h5>Mes Loisirs</h5>
                                 <ul>
                                     <li><i class="fa-solid fa-dice"></i>&nbsp; Jeux</li>
                                     <li><i class="fa-solid fa-music"></i>&nbsp; Musique</li>
                                     <li><i class="fa-solid fa-person-walking"></i>&nbsp; Promenades</li>
                                 </ul>
-                                <h4>Mes Valeurs</h4>
+                                <h5>Mes Valeurs</h5>
                                 <ul>
                                     <li>Honnêteté</li>
                                     <li>Partage</li>
                                     <li>Créativité</li>
                                 </ul>
-                                <h4>Un projet ?</h4>
-                                <p className='flipCardSmall'>Pour échanger sur vos missions et mes compétences</p>
+                                <h5>Un projet ?</h5>
                             </div>
                             <Link class="shadow-text" to='/contact'>CONTACTEZ-MOI</Link>
                         </div>

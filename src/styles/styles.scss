@@ -2,7 +2,7 @@ $main-text-color:#ebecff;
 $main-background-color: #09070e;
 $main-light-color: lightblue ;
 $second-color:cornflowerblue;
-
+$background-opacity: #09070eb7;
 a{
     color: $main-text-color;
     text-decoration: none;
@@ -52,6 +52,9 @@ h4{
         font-size: 2em;
     }
 
+}
+h5{
+    font-size: 1.2em;
 }
 p{
     color: $main-text-color;
