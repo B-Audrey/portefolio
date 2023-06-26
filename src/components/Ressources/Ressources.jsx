@@ -8,7 +8,7 @@ const Ressources = () => {
                 <ul className='ressources__list'>
                     <li><i className="fa-brands fa-html5"></i>&nbsp; HTML</li>
                     <li><i className="fa-brands fa-css3-alt"></i>&nbsp; CSS</li>
-                    <li><i className="fa-brands fa-js"></i>&nbsp; JAVA SCRIPT</li>
+                    <li><i className="fa-brands fa-js"></i>&nbsp; JAVASCRIPT</li>
                     <li><i className="fa-brands fa-react"></i>&nbsp; REACT</li>
                 </ul>
             </div>

@@ -69,6 +69,14 @@ const Home = () => {
               </div>
               
             </aside>
+            <div className="navigation">
+              <h3>Naviguer</h3>
+              <div>
+                <Button text="Remonter le temps" hashLink="/#home"/>
+                <Button text="Atterrir sur mon profil" hashLink="#profil"/>
+                <Button text="Jouer au morpion" link="/tictactoe"/>
+              </div>
+            </div>
         </main>
         <div className='footerImg'>
           <ImageBloc img={fuseeAstronaute} />

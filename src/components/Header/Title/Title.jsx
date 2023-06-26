@@ -1,10 +1,14 @@
 import './Title.scss';
+import { Link } from 'react-router-dom';
 
-const Title = ({text, name}) => {
+const Title = ({text}) => {
     return(
         <div className='title'>
             <h1 className='title__work'>{text}</h1>
-            <h2 className='title__name'>{name}</h2>
+            <Link to="https://www.linkedin.com/in/audrey-bonis/" className='title__name'>
+                Audrey.B
+            </Link>
+            
         </div>        
     )
 }
