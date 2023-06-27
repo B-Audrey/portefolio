@@ -8,19 +8,18 @@ import TicTacToe from './pages/TicTacToe';
 
 function App() {
   return (
-    <Home />
-    // <>
-    //   <SmallerPage />
-    //   <Router>
-    //     <Routes>
-    //       <Route exact path='/' element={<Home />}/>
-    //       <Route exact path='/contact' element={<Contact />} />
-    //       <Route exact path='/tictactoe' element={<TicTacToe />} />
-    //       <Route exact path='/error' element={<WrongPage />}/>
-    //       <Route exact path='*' element={<WrongPage />}/>
-    //     </Routes>
-    //   </Router>
-    // </>
+    <>
+      <SmallerPage />
+      <Router>
+        <Routes>
+          <Route path='/portefolio' element={<Home />}/>
+          <Route path='/portefolio/contact' element={<Contact />} />
+          <Route path='/portefolio/tictactoe' element={<TicTacToe />} />
+          <Route path='/portefolio/error' element={<WrongPage />}/>
+          <Route path='*' element={<WrongPage />}/>
+        </Routes>
+      </Router>
+    </>
   );
 }
 
