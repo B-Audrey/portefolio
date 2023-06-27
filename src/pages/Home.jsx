@@ -70,7 +70,7 @@ const Home = () => {
             </aside>
             <div className="navigation">
               <h3>Naviguer</h3>
-              <div>
+              <div className="end__buttons">
                 <Button text="Remonter le temps" hashLink="/#home"/>
                 <Button text="Atterrir sur mon profil" hashLink="#profil"/>
                 <Button text="Jouer au morpion" link="/tictactoe"/>
