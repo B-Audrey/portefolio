@@ -11,7 +11,6 @@ import ImageBloc from "../components/ImageBloc/ImageBloc";
 import baloonAstronaute from "../assets/baloonAstronaute.png"
 import fuseeAstronaute from '../assets/fuseeAustronaute.png'
 import computerAstronaute from '../assets/astronaute.png'
-import cv from '../doc/CV_BONIS_Audrey.pdf'
 import Button from "../components/Button/Button";
 
 
@@ -81,7 +80,7 @@ const Home = () => {
         <div className='footerImg'>
           <ImageBloc img={fuseeAstronaute} />
         </div>
-        <Footer cv={cv} />
+        <Footer />
         </>
     )
 }

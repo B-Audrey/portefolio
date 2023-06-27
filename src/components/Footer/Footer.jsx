@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import './Footer.scss'
 
-const Footer = ({cv}) => {
+const Footer = () => {
     return (
         <footer className='footer'>
                 <div className="footer__link">
@@ -35,7 +35,7 @@ const Footer = ({cv}) => {
                     </Link>
                     <span>
                         <i class="fa-solid fa-file-arrow-down"></i>
-                        &nbsp; <Link to={cv} download>Téléchargez mon CV</Link>
+                        &nbsp; <a href="../doc/CV_BONIS_Audrey.pdf" download>Téléchargez mon CV</a>
                     </span>
                 </div>
                 <div className="footer__link">

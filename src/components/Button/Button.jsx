@@ -7,7 +7,7 @@ const Button = ({text, link, hashLink}) => {
 
     return hasHashLink ? (
         <button className='button'>
-            <hashLink to={hashLink}>{text}</hashLink>
+            <HashLink to={hashLink}>{text}</HashLink>
         </button>
     ) : (
         <button className='button'>
