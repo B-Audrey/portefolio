@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
-import './Footer.scss'
+import './Footer.scss';
+import { useNavigate } from "react-router-dom";
 
 const Footer = () => {
     return (
@@ -8,13 +9,13 @@ const Footer = () => {
             <div className="footer__wrapper">
                 <div className="footer__link">
                     <h4>Sur le site</h4>
-                    <HashLink to='#home'>
+                    <Link to='/'>
                         <i className="fa-solid fa-clock"></i>
-                        &nbsp; Remonter le temps</HashLink>
-                    <HashLink to="#informations" className="page__link">
+                        &nbsp; Remonter le temps</Link>
+                    <Link to="portefolio#/#informations" className="page__link">
                         <i className="fa-solid fa-meteor"></i>
                         &nbsp; Atterrir sur mon profil
-                    </HashLink>
+                    </Link>
                     <Link to="/tictactoe" className="page__link">
                         <i className="fa-solid fa-table-cells-large"></i>
                         &nbsp; Jouer au morpion avec un collegue

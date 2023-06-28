@@ -4,20 +4,20 @@ const Ressources = () => {
     return (
         <div id="competences" className='ressources'>
             <div className='ressources__bloc'>
-                <h4 className='ressources__title'>Langages Frontend</h4>
+                <h4 className='ressources__title'>Frontend</h4>
                 <ul className='ressources__list'>
                     <li><i className="fa-brands fa-html5"></i>&nbsp; HTML</li>
                     <li><i className="fa-brands fa-css3-alt"></i>&nbsp; CSS</li>
-                    <li><i className="fa-brands fa-js"></i>&nbsp; JAVASCRIPT</li>
-                    <li><i className="fa-brands fa-react"></i>&nbsp; REACT</li>
+                    <li><i className="fa-brands fa-js"></i>&nbsp; Javascript</li>
+                    <li><i className="fa-brands fa-react"></i>&nbsp; React</li>
                 </ul>
             </div>
             <div className='ressources__bloc'>
-                <h4 className='ressources__title'>Langages Backend</h4>
+                <h4 className='ressources__title'>Backend</h4>
                 <ul className='ressources__list'>
-                    <li><i className="fa-brands fa-node"></i>&nbsp; NODE JS</li>
-                    <li><i className="fa-solid fa-database"></i>&nbsp; MONGO DB</li>
-                    <li><i className="fa-solid fa-database"></i>&nbsp; MySQL</li>
+                    <li><i className="fa-brands fa-node"></i>&nbsp; Node JS</li>
+                    <li><i className="fa-solid fa-database"></i>&nbsp; SQL</li>
+                    <li><i className="fa-solid fa-database"></i>&nbsp; Mongo DB</li>
                 </ul>
             </div>
             <div className='ressources__bloc'>

@@ -1,5 +1,9 @@
 @import './styles.scss';
-
+main{
+    width: 90%;
+    margin: auto;
+    max-width: 1400px;
+}
 h3{
     text-align: center;
     margin: 8% 0% 4% 0%;
@@ -61,6 +65,9 @@ h3{
     }
     @media(min-width:1000px){
         font-size: 1.2em;
+    }
+    &__text{
+        margin: 0% 0% 5% 0%;
     }
 }
 .end__buttons{

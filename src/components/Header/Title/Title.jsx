@@ -6,7 +6,6 @@ const Title = ({text}) => {
         <div className='title'>
             <h1 className='title__work'>{text}</h1>
             <div className='title__links'>
-                <p>Audrey</p>
                 <a href="../doc/CV_BONIS_Audrey.pdf" download>
                     <i className="fa-solid fa-file-arrow-down"></i>
                 </a>

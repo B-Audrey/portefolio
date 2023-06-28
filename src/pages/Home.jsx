@@ -1,5 +1,4 @@
 import Card from "../components/Card/Card";
-import Footer from '../components/Footer/Footer';
 import '../styles/Home.scss';
 import Gallery from "../components/Gallery/Gallery";
 import { useEffect, useState } from "react";
@@ -69,7 +68,7 @@ const Home = () => {
             <aside>
               <h3>Contact</h3>
               <div className="contact">
-                <p>Vous pouvez me contacter par email à l'adresse : <a href="mailto:bonis.audreyy@gmail.com"><strong>bonis.audreyy@gmail.com</strong></a> ou via le</p>
+                <p className="contact__text">Vous pouvez me contacter par email à l'adresse : <a href="mailto:bonis.audreyy@gmail.com"><strong>bonis.audreyy@gmail.com</strong></a> ou via le</p>
                 <Button text='Formulaire de contact' link="/contact"/>
               </div>
               
@@ -86,8 +85,6 @@ const Home = () => {
               </div>
             </div>
         </main>
-
-        <Footer />
         </>
     )
 }

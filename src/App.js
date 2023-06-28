@@ -5,6 +5,7 @@ import Home from './pages/Home';
 import WrongPage from './pages/WrongPage';
 import Contact from './pages/Contact';
 import TicTacToe from './pages/TicTacToe';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path='/error' element={<WrongPage />}/>
           <Route path='*' element={<WrongPage />}/>
         </Routes>
+        <Footer />
     </>
   );
 }
