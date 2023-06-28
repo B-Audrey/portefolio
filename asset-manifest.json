@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portefolio/static/css/main.16bdd3de.css",
-    "main.js": "/portefolio/static/js/main.2b482d58.js",
+    "main.css": "/portefolio/static/css/main.3f7fe6c7.css",
+    "main.js": "/portefolio/static/js/main.f669460e.js",
     "static/js/787.34099e4b.chunk.js": "/portefolio/static/js/787.34099e4b.chunk.js",
     "static/media/baloonAstronaute.png": "/portefolio/static/media/baloonAstronaute.8fb345a45257a0f1f60b.png",
     "static/media/astres.jpg": "/portefolio/static/media/astres.67fe84e269cb256f143d.jpg",
@@ -9,12 +9,12 @@
     "static/media/Audrey_mini.jpg": "/portefolio/static/media/Audrey_mini.e9825ed1eb83526fabae.jpg",
     "static/media/astronaute.png": "/portefolio/static/media/astronaute.c75911d31f5f47903cd6.png",
     "index.html": "/portefolio/index.html",
-    "main.16bdd3de.css.map": "/portefolio/static/css/main.16bdd3de.css.map",
-    "main.2b482d58.js.map": "/portefolio/static/js/main.2b482d58.js.map",
+    "main.3f7fe6c7.css.map": "/portefolio/static/css/main.3f7fe6c7.css.map",
+    "main.f669460e.js.map": "/portefolio/static/js/main.f669460e.js.map",
     "787.34099e4b.chunk.js.map": "/portefolio/static/js/787.34099e4b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.16bdd3de.css",
-    "static/js/main.2b482d58.js"
+    "static/css/main.3f7fe6c7.css",
+    "static/js/main.f669460e.js"
   ]
 }
