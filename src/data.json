@@ -13,7 +13,7 @@
     {
         "id":"002",
         "title":"Sophie Bluel",
-        "cover":"./portefolio/assets/sophie-bluel.png",
+        "cover":"/portefolio/assets/sophie-bluel.png",
         "link": "https://github.com/B-Audrey/P3-JavaScriptNatif",
         "linkText":"Réalisaiton d'une gallerie photo",
         "elements": [
