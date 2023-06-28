@@ -73,7 +73,10 @@ const Home = () => {
                 <Button text='Formulaire de contact' link="/contact"/>
               </div>
               
-            </aside>
+            </aside>        
+            <div className='footerImg'>
+              <ImageBloc img={fuseeAstronaute} />
+            </div>
             <div className="navigation">
               <h3>Naviguer</h3>
               <div className="end__buttons">
@@ -83,9 +86,7 @@ const Home = () => {
               </div>
             </div>
         </main>
-        <div className='footerImg'>
-          <ImageBloc img={fuseeAstronaute} />
-        </div>
+
         <Footer />
         </>
     )

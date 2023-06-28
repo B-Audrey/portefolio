@@ -5,8 +5,9 @@ import './Footer.scss'
 const Footer = () => {
     return (
         <footer className='footer'>
+            <div className="footer__wrapper">
                 <div className="footer__link">
-                    <h4>Naviguer</h4>
+                    <h4>Sur le site</h4>
                     <HashLink to='#home'>
                         <i className="fa-solid fa-clock"></i>
                         &nbsp; Remonter le temps</HashLink>
@@ -46,6 +47,7 @@ const Footer = () => {
                         <Link to="http://www.freepik.com">Designed by catalyststuff / Freepik</Link>
                     </span>
                 </div>
+            </div>
         </footer>
     )
 }
