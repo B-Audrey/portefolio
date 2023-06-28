@@ -1,5 +1,5 @@
 import './index.scss';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { Routes, Route } from 'react-router-dom';
 import SmallerPage from './components/SmallerPage';
 import Home from './pages/Home';
 import WrongPage from './pages/WrongPage';
@@ -11,7 +11,7 @@ function App() {
     <>
       <SmallerPage />
         <Routes>
-          <Route path='/' element={<Home />}/>
+          <Route exact path='/' element={<Home />}/>
           <Route path='/contact' element={<Contact />} />
           <Route path='/tictactoe' element={<TicTacToe />} />
           <Route path='/error' element={<WrongPage />}/>
