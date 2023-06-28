@@ -2,7 +2,7 @@
     {
         "id":"001",
         "title":"Booki",
-        "cover":"https://github.com/B-Audrey/portefolio/blob/master/public/assets/logoBooki.png",
+        "cover":"/portefolio/assets/logoBooki.png",
         "link": "https://github.com/B-Audrey/P2-HTML_CSS",
         "linkText":"Création d'une page vitrine statique",
         "elements": [
@@ -25,7 +25,7 @@
     {
         "id":"003",
         "title":"Menu Maker by Qwenta",
-        "cover":"./portefolio/assets/menu-maker.png",
+        "cover":"/portefolio/assets/menu-maker.png",
         "link": "https://www.notion.so/Menu-Maker-by-Qwenta-1ba70837b79b49b58a370b5b68638d0a?pvs=4",
         "linkText":"Plannification d'un projet de développement",
         "elements": [
@@ -35,7 +35,7 @@
     {
         "id":"004",
         "title":"Mon Vieux Grimoire",
-        "cover":"./portefolio/assets/grimoire.png",
+        "cover":"/portefolio/assets/grimoire.png",
         "link": "https://github.com/B-Audrey/P7-NodeJs_MongoDB",
         "linkText":"Ajout d'un backend sur une page web",
         "elements": [
@@ -45,7 +45,7 @@
     {
         "id":"005",
         "title":"Nina Carducci",
-        "cover":"./portefolio/assets/nina.png",
+        "cover":"/portefolio/assets/nina.png",
         "link": "https://github.com/B-Audrey/P5-SEO",
         "linkText":"Amélioration du SEO et accessibilité",
         "elements": [
@@ -57,7 +57,7 @@
     {
         "id":"006",
         "title":"Kasa",
-        "cover":"./portefolio/assets/logoKasa.png",
+        "cover":"/portefolio/assets/logoKasa.png",
         "link": "https://github.com/B-Audrey/P6-React",
         "linkText":"Intégration d'une maquette dynamique découpée en composants",
         "elements": [
