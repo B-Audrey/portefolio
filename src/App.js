@@ -12,11 +12,11 @@ function App() {
       <SmallerPage />
       <Router>
         <Routes>
-          <Route path='/portefolio' element={<Home />}/>
-          <Route path='/portefolio/contact' element={<Contact />} />
-          <Route path='/portefolio/tictactoe' element={<TicTacToe />} />
-          <Route path='/portefolio/error' element={<WrongPage />}/>
-          <Route path='*' element={<WrongPage />}/>
+          <Route path='https://B-Audrey.github.io/portefolio' element={<Home />}/>
+          <Route path='https://B-Audrey.github.io/portefolio/contact' element={<Contact />} />
+          <Route path='https://B-Audrey.github.io/portefolio/tictactoe' element={<TicTacToe />} />
+          <Route path='https://B-Audrey.github.io/portefolio/error' element={<WrongPage />}/>
+          <Route path='https://B-Audrey.github.io/*' element={<WrongPage />}/>
         </Routes>
       </Router>
     </>
