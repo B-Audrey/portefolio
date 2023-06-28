@@ -69,7 +69,7 @@ const Home = () => {
             <aside>
               <h3>Contact</h3>
               <div className="contact">
-                <p>Vous pouvez me contacter par email à l'adresse : <strong>bonis.audreyy@gmail.com</strong> ou via le</p>
+                <p>Vous pouvez me contacter par email à l'adresse : <a href="mailto:bonis.audreyy@gmail.com"><strong>bonis.audreyy@gmail.com</strong></a> ou via le</p>
                 <Button text='Formulaire de contact' link="/contact"/>
               </div>
               

@@ -16,7 +16,7 @@ const Gallery = ({data}) => {
                             <div className="flipCard__back gallery__back">
                                 <div className="flipCard__back--text">
                                     <h4 className='backTitle'>{current.title}</h4>
-                                    <span>{current.linkText}</span>
+                                    <span className='backSubText'>{current.linkText}</span>
                                     <ul className="backTags">
                                         {current.elements.map((tag, index) => 
                                         <li key={`${tag}-${index}`}>{tag}</li>)}

@@ -6,13 +6,9 @@
     border-radius: 10px;
     border: 1px solid $main-background-color;
     padding: 10px;
-    height: 40px;
-    @media(min-width:600px){
-        height: 50px;
-        font-size: 1.1em;
-    }
+    height: auto;
+    font-size: 0.8em;
     @media(min-width:1000px){
-        height: 60px;
         font-size: 1.2em;
     }
     & a{
