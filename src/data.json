@@ -2,12 +2,12 @@
     {
         "id":"001",
         "title":"Booki",
-        "cover":"./portefolio/assets/logoBooki.png",
+        "cover":"./portefolio/static/media/logoBooki.png",
         "link": "https://github.com/B-Audrey/P2-HTML_CSS",
         "linkText":"Création d'une page vitrine statique",
         "elements": [
-            "css",
-            "html"
+            "CSS",
+            "HTML"
         ]
     },
     {
@@ -17,9 +17,9 @@
         "link": "https://github.com/B-Audrey/P3-JavaScriptNatif",
         "linkText":"Réalisaiton d'une gallerie photo",
         "elements": [
-            "javaScript",
-            "css",
-            "html"
+            "Javascript",
+            "CSS",
+            "HTML"
         ]
     },
     {
@@ -29,7 +29,7 @@
         "link": "https://www.notion.so/Menu-Maker-by-Qwenta-1ba70837b79b49b58a370b5b68638d0a?pvs=4",
         "linkText":"Plannification d'un projet de développement",
         "elements": [
-            "gestionDeProjet"
+            "Gestion de projet"
         ]
     },
     {
@@ -39,7 +39,7 @@
         "link": "https://github.com/B-Audrey/P7-NodeJs_MongoDB",
         "linkText":"Ajout d'un backend sur une page web",
         "elements": [
-            "nodeJS"
+            "NodeJS"
         ]
     },
     {
@@ -49,9 +49,9 @@
         "link": "https://github.com/B-Audrey/P5-SEO",
         "linkText":"Amélioration du SEO et accessibilité",
         "elements": [
-            "javaScript",
-            "css",
-            "html"
+            "JavaScript",
+            "CSS",
+            "HTML"
         ]
     },
     {
@@ -61,10 +61,10 @@
         "link": "https://github.com/B-Audrey/P6-React",
         "linkText":"Intégration d'une maquette dynamique découpée en composants",
         "elements": [
-            "react",
-            "javaScript",
-            "scss",
-            "html"
+            "React",
+            "Javascript",
+            "Scss",
+            "HTML"
         ]
     }
 ]
