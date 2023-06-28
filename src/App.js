@@ -10,7 +10,6 @@ function App() {
   return (
     <>
       <SmallerPage />
-      <Router>
         <Routes>
           <Route path='/' element={<Home />}/>
           <Route path='/contact' element={<Contact />} />
@@ -18,7 +17,6 @@ function App() {
           <Route path='/error' element={<WrongPage />}/>
           <Route path='*' element={<WrongPage />}/>
         </Routes>
-      </Router>
     </>
   );
 }
