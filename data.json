@@ -2,7 +2,7 @@
     {
         "id":"001",
         "title":"Booki",
-        "cover":"./assets/logoBooki.png",
+        "cover":"/assets/logoBooki.png",
         "link": "https://github.com/B-Audrey/P2-HTML_CSS",
         "linkText":"Création d'une page vistrine statique",
         "elements": [
