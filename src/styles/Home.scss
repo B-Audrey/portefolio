@@ -4,6 +4,12 @@ h3{
     text-align: center;
     margin: 8% 0% 4% 0%;
 }
+.homeButtons{
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    bottom: 35vh;
+}
 .profil{
     &__perso{
         display: flex;

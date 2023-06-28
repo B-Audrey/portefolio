@@ -13,7 +13,7 @@ const Card = () => {
                 </div>
                 <div className="flipCard__back">
                     <div className="flipCard__back--text">
-                        <h4>BONIS Audrey</h4>
+                        <h4 className='backTitle'>BONIS Audrey</h4>
                         <h5>Mes Loisirs</h5>
                         <ul>
                             <li><i className="fa-solid fa-dice"></i>&nbsp; Jeux</li>

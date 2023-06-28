@@ -8,36 +8,42 @@ import Nav from "../components/Nav/Nav";
 import Ressources from "../components/Ressources/Ressources";
 import Bio from "../components/Bio/Bio";
 import ImageBloc from "../components/ImageBloc/ImageBloc";
-import baloonAstronaute from "../assets/baloonAstronaute.png"
-import fuseeAstronaute from '../assets/fuseeAustronaute.png'
-import computerAstronaute from '../assets/astronaute.png'
+import baloonAstronaute from "../assets/baloonAstronaute.png";
+import fuseeAstronaute from '../assets/fuseeAustronaute.png';
+import computerAstronaute from '../assets/astronaute.png';
 import Button from "../components/Button/Button";
+import data from "../data.json";
 
 
 const Home = () => {
-    let [data, setData] = useState({});
-    let [haveData, setHaveData] = useState(false);
+    // let [data, setData] = useState({});
+    let [haveData, setHaveData] = useState(true);
   
-    useEffect(()=>{
-      const fetchData = async () => {
-        try{
-          let response = await fetch('./data.json');
-          let dataToDisplay = await response.json();
-          setData(dataToDisplay);
-          setHaveData(true)
-        }
-        catch(error){
-          console.error(error)
-        }
-      }
-    fetchData()
-    }, [])
+    // useEffect(()=>{
+    //   const fetchData = async () => {
+    //     try{
+    //       let response = await fetch('./portefolio/data.json');
+    //       let dataToDisplay = await response.json();
+    //       setData(dataToDisplay);
+    //       setHaveData(true)
+    //     }
+    //     catch(error){
+    //       console.error(error)
+    //     }
+    //   }
+    // fetchData()
+    // }, [])
   
     console.log(data)
     return (
         <>
         <header id='home'>
             <Header />
+            <div className="homeButtons">
+              <Button text="Atterrir sur mon profil" hashLink="#profil"/>
+              <Button text="Jouer au morpion" link="/tictactoe"/>
+              <Button text="Consulter mes projets" hashLink="#projet"/>
+            </div>
             <Nav />
         </header>
         <main className="mainContent">
@@ -53,7 +59,7 @@ const Home = () => {
                   <ImageBloc img={baloonAstronaute}/>
                 </div>
             </article>
-            <article className="asideGallery">
+            <article className="asideGallery" id="projet">
               <h3>Projets</h3>
               <div className="galleryContent">
               <ImageBloc img={computerAstronaute}/>

@@ -25,12 +25,13 @@
         border-radius: 10px;
         transform: rotateY(180deg);
         background-color: $main-text-color;
-    }
-    &__back--text{
         height: 310px;
         @media(min-width:600px){
             height: 385px;
         }
+    }
+    &__back--text{
+        height: 100%;
         & ul{
             display: flex;
             justify-content: center;
@@ -46,8 +47,6 @@
                 margin: 3% 0%;
             }
         } 
-        
-        
     }
 }
 .flipCard:hover .flipCard__rotation {
@@ -83,4 +82,7 @@
     @media(min-width: 300px) and (max-width:600px){
         font-size: 0.8em;
     }
+}
+.backTitle{
+    margin: 0% 0% 3% 0%;
 }

@@ -30,18 +30,18 @@ const Footer = () => {
                         &nbsp; Consulter mon profil LinkedIn
                     </Link>
                     <Link to="https://github.com/B-Audrey">
-                        <i class="fa-brands fa-github"></i>
+                        <i className="fa-brands fa-github"></i>
                         &nbsp; Consulter mon repo Github
                     </Link>
                     <span>
-                        <i class="fa-solid fa-file-arrow-down"></i>
+                        <i className="fa-solid fa-file-arrow-down"></i>
                         &nbsp; <a href="../doc/CV_BONIS_Audrey.pdf" download>Téléchargez mon CV</a>
                     </span>
                 </div>
                 <div className="footer__link">
                     <h4>Mentions</h4>
                     <span className="mention">
-                        <i class="fa-solid fa-image"></i>
+                        <i className="fa-solid fa-image"></i>
                         <p>&nbsp; Images libres de droit :</p>
                         <Link to="http://www.freepik.com">Designed by catalyststuff / Freepik</Link>
                     </span>
