@@ -1,5 +1,5 @@
 import './index.scss';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import SmallerPage from './components/SmallerPage';
 import Home from './pages/Home';
 import WrongPage from './pages/WrongPage';
