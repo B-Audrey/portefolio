@@ -22,11 +22,11 @@ const Card = () => {
                         </ul>
                         <h5>Mes Valeurs</h5>
                         <ul>
-                            <li>Honnêteté</li>
-                            <li>Partage</li>
-                            <li>Créativité</li>
+                            <li><i className="fa-solid fa-check"></i>&nbsp; Honnêteté</li>
+                            <li><i className="fa-solid fa-share-nodes"></i>&nbsp; Partage</li>
+                            <li><i className="fa-solid fa-palette"></i>&nbsp; Créativité</li>
                         </ul>
-                        <h5>Un projet ?</h5>
+                        <h5>Vous avez un projet web ?</h5>
                     </div>
                     <Link className="shadow-text" to='/contact'>CONTACTEZ-MOI</Link>
                 </div>

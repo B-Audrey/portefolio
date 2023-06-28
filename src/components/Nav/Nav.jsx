@@ -8,7 +8,7 @@ const Nav = () => {
     const handleClick = () => setIsOpen((previousValue) => !previousValue );
     return (
         <nav className="nav">
-            <div className="nav__text">Menu</div>
+            <div onClick={handleClick} className="nav__text">Menu</div>
             <button  onClick={handleClick} className={`nav__btn nav__btn${isOpen ? '--open' : '--close'}`}>
                 <img src={leftArrow} alt="open or close"></img>
             </button>

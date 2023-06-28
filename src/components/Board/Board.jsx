@@ -40,7 +40,7 @@ const Board = () => {
     }
     const isNullGame = nextSquares.find((e) => e === null)
     if(isNullGame === undefined){
-      message = 'No winner, try it again';
+      message = 'No winner, click on the button to try it again';
     }
     setMessage(message);
   }

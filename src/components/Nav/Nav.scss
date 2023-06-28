@@ -28,7 +28,6 @@
         @media(min-width:1000px){
             transform: rotate(180deg); 
         }
-        
     }
     &__btn--close{
         transition: transform 400ms ease-in;
@@ -40,13 +39,15 @@
     &__bloc{
         box-sizing: border-box;
         display: flex;
+        flex-wrap: wrap;
         padding: 0px;
-        margin: 0px 0px 20px 0px;
+        margin: 0px;
         @media(min-width:1000px){
             margin: 0px;
+            height: 25px;
         }
         & li{
-            padding: 0px 10px;
+            padding: 5px 10px;
             @media(min-width:600px){
                 padding: 0px 25px;
             }

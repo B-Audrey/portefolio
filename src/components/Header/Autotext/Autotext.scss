@@ -9,8 +9,8 @@
     background-size: cover;
     height: 100vh;
     @media (min-width:1400px){
-        width: 100%;
-        position: static;
+        left: 0%;
+        margin-left: -10%;
     }
     & span{
         font-size: 2em;

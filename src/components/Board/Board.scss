@@ -1,0 +1,17 @@
+@import '../../styles/styles.scss';
+
+.board-row {
+    display: flex;
+    justify-content: center;
+}
+.message{
+    text-align: center;
+    font-size: 2em;
+    margin: 10% 0%;
+    @media(min-width:600px){
+        margin: 5% 0%;
+    }
+    @media(min-width:1000px){
+        margin: 3% 0%;
+    }
+}

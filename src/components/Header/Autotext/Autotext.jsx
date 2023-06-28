@@ -9,6 +9,7 @@ const Autotext = () => {
             'Bonjour, je suis Audrey. Bienvenue sur ma page web. Que souhaitez vous faire ?',
         ]}
         wrapper="span"
+        speed= "5"
         cursor={true}
         style={{ display: 'inline-block' }}
         />

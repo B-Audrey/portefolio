@@ -2,7 +2,7 @@ import '../styles/Contact.scss';
 
 const Contact = () => {
     return(
-        <div>Formulaire</div>
+        <h1>Ici, bientôt un Formulaire du contact</h1>
     )
 }
 

@@ -1,1 +1,14 @@
 @import './styles.scss';
+
+.tictactoe{
+    &__title{
+        text-align: center;
+        background-image: url('../assets/astres.jpg');
+        background-size: cover;
+        padding: 5% 0%;
+    }
+    &__restart{
+        margin-top: 5%;
+        text-align: center;
+    }
+}
