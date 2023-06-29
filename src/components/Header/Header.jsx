@@ -1,6 +1,6 @@
 import './Header.scss';
 import Title from "./Title/Title";
-import Nav from '../Nav/Nav';
+import Nav from './Nav/Nav';
 
 const Header = () => {
     return(

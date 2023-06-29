@@ -1,5 +1,5 @@
 import { useState } from "react";
-import leftArrow from '../../assets/leftArrow.png';
+import leftArrow from '../../../assets/leftArrow.png';
 import './Nav.scss';
 import { HashLink } from "react-router-hash-link";
 

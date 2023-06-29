@@ -9,10 +9,10 @@ const Bio = () => {
                 <a href={cv} download>
                     <i className="fa-solid fa-file-arrow-down"></i>
                 </a>
-                <Link to="https://github.com/B-Audrey">
+                <Link to="https://github.com/B-Audrey" target='_blank'>
                     <i className="fa-brands fa-github"></i>
                 </Link>
-                <Link to="https://www.linkedin.com/in/audrey-bonis/" >
+                <Link to="https://www.linkedin.com/in/audrey-bonis/" target='_blank' >
                     <i className="fa-brands fa-linkedin"></i>
                 </Link>
                 
