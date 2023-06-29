@@ -1,0 +1,39 @@
+@import './styles.scss';
+
+.error{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+    height: calc(60vh);
+    box-sizing: border-box;
+    margin-top:5%;
+    &__code{
+        margin: auto;
+        font-size: 4em;
+        font-weight: 700;
+        @media (min-width: 700px){
+            font-size: 8em;
+        }
+        @media (min-width: 1000px){
+            font-size: 10em;
+        }
+    }
+    &__text{
+        font-size: 0.8em;
+        width: 80%;
+        text-align: center;
+        @media (min-width: 700px){
+            font-size: 1.2em;
+            width: 100%;
+        }
+    }
+    &__link{
+        font-size: 0.7em;
+        text-decoration: underline;
+        @media (min-width: 700px){
+            font-size: 0.9em;
+        }
+    }
+
+}

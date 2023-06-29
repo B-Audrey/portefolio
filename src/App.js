@@ -16,7 +16,7 @@ function App() {
           <Route path='/portefolio/contact' element={<Contact />} />
           <Route path='/portefolio/tictactoe' element={<TicTacToe />} />
           <Route path='/portefolio/error' element={<WrongPage />}/>
-          <Route path='/portefolio/*' element={<WrongPage />}/>
+          <Route path='*' element={<WrongPage />}/>
         </Routes>
         <Footer />
     </>

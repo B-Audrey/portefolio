@@ -40,7 +40,7 @@ const Home = () => {
             <Header />
             <div className="homeButtons">
               <Button text="Atterrir sur mon profil" hashLink="#profil"/>
-              <Button text="Jouer au morpion" link="/tictactoe"/>
+              <Button text="Jouer au morpion" link="/portefolio/tictactoe"/>
               <Button text="Consulter mes projets" hashLink="#projet"/>
             </div>
             <Nav />
@@ -69,7 +69,7 @@ const Home = () => {
               <h3>Contact</h3>
               <div className="contact">
                 <p className="contact__text">Vous pouvez me contacter par email à l'adresse : <a href="mailto:bonis.audreyy@gmail.com"><strong>bonis.audreyy@gmail.com</strong></a> ou via le</p>
-                <Button text='Formulaire de contact' link="/contact"/>
+                <Button text='Formulaire de contact' link="/portefolio/contact"/>
               </div>
               
             </aside>        
