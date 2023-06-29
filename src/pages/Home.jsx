@@ -65,9 +65,9 @@ const Home = () => {
               { haveData ? <Gallery data={data}/> : null } 
               </div>
             </article>
-            <aside>
+            <aside id="contact">
               <h3>Contact</h3>
-              <div className="contact">
+              <div className="contact" >
                 <p className="contact__text">Vous pouvez me contacter par email à l'adresse : <a href="mailto:bonis.audreyy@gmail.com"><strong>bonis.audreyy@gmail.com</strong></a> ou via le</p>
                 <Button text='Formulaire de contact' link="/portefolio/contact"/>
               </div>

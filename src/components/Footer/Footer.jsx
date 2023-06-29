@@ -8,22 +8,22 @@ const Footer = () => {
         <footer className='footer'>
             <div className="footer__wrapper">
                 <div className="footer__link">
-                    <h4>Sur le site</h4>
-                    <Link to='/'>
+                    <h4>Trouver sa route</h4>
+                    <HashLink to='/portefolio/#home'>
                         <i className="fa-solid fa-clock"></i>
-                        &nbsp; Remonter le temps</Link>
-                    <Link to="portefolio#/#informations" className="page__link">
+                        &nbsp; Remonter le temps</HashLink>
+                    <HashLink to="portefolio/#profil" className="page__link">
                         <i className="fa-solid fa-meteor"></i>
                         &nbsp; Atterrir sur mon profil
-                    </Link>
-                    <Link to="/tictactoe" className="page__link">
+                    </HashLink>
+                    <Link to="portefolio/tictactoe" className="page__link">
                         <i className="fa-solid fa-table-cells-large"></i>
                         &nbsp; Jouer au morpion avec un collegue
                     </Link>
-                    <Link to="#contact" className="page__link">
+                    <HashLink to="portefolio/#contact" className="page__link">
                         <i className="fa-solid fa-satellite-dish"></i>
                         &nbsp; Entrer en contact
-                    </Link>
+                    </HashLink>
                 </div>
                 <div className="footer__link">
                     <h4>En savoir plus</h4>
