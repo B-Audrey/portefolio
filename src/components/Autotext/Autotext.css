@@ -3,7 +3,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  text-decoration: underline;
+  color: cornflowerblue;
 }
 a:active {
   color: cornflowerblue;
@@ -84,10 +84,12 @@ i, strong {
 }
 @media (min-width: 600px) {
   .autotext {
-    height: 60vh;
+    height: 70vh;
   }
 }
 .autotext span {
+  margin: auto;
+  max-width: 90%;
   font-size: 1.7em;
   color: #ebecff;
   text-align: center;

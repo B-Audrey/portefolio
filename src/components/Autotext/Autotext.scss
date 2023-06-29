@@ -9,9 +9,11 @@
     justify-content: center;
     margin-bottom: 20vh;
     @media(min-width:600px){
-        height: 60vh;
+        height: 70vh;
     }
     & span{
+        margin: auto;
+        max-width: 90%;
         font-size: 1.7em;
         color: $main-text-color;
         text-align: center;

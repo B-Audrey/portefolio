@@ -1,8 +1,6 @@
 @import './styles.scss';
 main{
     width: 100%;
-    margin: auto;
-    max-width: 1400px;
 }
 h3{
     text-align: center;
@@ -103,6 +101,14 @@ h3{
     background-color: $main-background-color;
     display: flex;
     justify-content: space-around;
+    @media(min-width:1000px){
+        padding: 3%;
+    }
+}
+.navigation{
+    @media(min-width:1000px){
+        margin-top: 5%;
+    }
 }
 .footerImg{
     width: 100%;

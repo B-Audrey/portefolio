@@ -85,7 +85,7 @@ i, strong {
 @media (min-width: 600px) {
   .footer {
     margin-top: 10%;
-    height: 300px;
+    height: 250px;
   }
 }
 @media (min-width: 1000px) {
@@ -121,11 +121,11 @@ i, strong {
     width: 30%;
   }
 }
-.footer__link a {
+.footer__link * {
   margin: 2px 0px;
 }
 @media (min-width: 600px) {
-  .footer__link a {
+  .footer__link * {
     margin: 5px 0px;
   }
 }
