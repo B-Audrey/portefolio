@@ -21,7 +21,7 @@ const Home = () => {
     // useEffect(()=>{
     //   const fetchData = async () => {
     //     try{
-    //       let response = await fetch('./portefolio/data.json');
+    //       let response = await fetch('/portefolio/data.json');
     //       let dataToDisplay = await response.json();
     //       setData(dataToDisplay);
     //       setHaveData(true)
