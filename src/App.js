@@ -12,11 +12,11 @@ function App() {
     <>
       <SmallerPage />
         <Routes>
-          <Route exact path='/' element={<Home />}/>
-          <Route path='/contact' element={<Contact />} />
-          <Route path='/tictactoe' element={<TicTacToe />} />
-          <Route path='/error' element={<WrongPage />}/>
-          <Route path='*' element={<WrongPage />}/>
+          <Route path='/portefolio/' element={<Home />}/>
+          <Route path='/portefolio/contact' element={<Contact />} />
+          <Route path='/portefolio/tictactoe' element={<TicTacToe />} />
+          <Route path='/portefolio/error' element={<WrongPage />}/>
+          <Route path='/portefolio/*' element={<WrongPage />}/>
         </Routes>
         <Footer />
     </>
