@@ -163,7 +163,7 @@ h3 {
 
 .contact {
   margin: 10% 0%;
-  padding: 10%;
+  padding: 2% 0% 0% 0%;
   background-color: #09070e;
   display: flex;
   flex-direction: column;

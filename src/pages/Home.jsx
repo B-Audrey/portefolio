@@ -11,6 +11,7 @@ import computerAstronaute from '../assets/astronaute.png';
 import Button from "../components/Button/Button";
 import Autotext from "../components/Autotext/Autotext";
 import data from "../data.json";
+import { Link } from "react-router-dom";
 
 
 const Home = () => {
@@ -54,8 +55,7 @@ const Home = () => {
             </article>
             <aside className="contact" id="contact">
               <h3>Contact</h3>
-              <p className="contact__text">Vous pouvez me contacter par email à l'adresse : <a href="mailto:bonis.audreyy@gmail.com"><strong>bonis.audreyy@gmail.com</strong></a> ou via le</p>
-              <Button text='Formulaire de contact' link="/portefolio/contact"/>
+              <p className="contact__text">Vous pouvez me contacter par email à l'adresse : <a href="mailto:bonis.audreyy@gmail.com"><strong>bonis.audreyy@gmail.com</strong></a> ou via la messagerie <Link to="https://www.linkedin.com/in/audrey-bonis/" target="_blank"><strong>LinkedIn</strong>,</Link> je vous répondrais au plus vite.</p>
             </aside>        
             <div className='footerImg'>
               <ImageBloc img={fuseeAstronaute} />

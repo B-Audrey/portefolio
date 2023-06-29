@@ -3,7 +3,7 @@ a {
   text-decoration: none;
 }
 a:hover {
-  text-decoration: underline;
+  color: cornflowerblue;
 }
 a:active {
   color: cornflowerblue;
@@ -23,18 +23,15 @@ h1 {
     font-size: 2.5em;
   }
 }
-@media (min-width: 1000px) {
-  h1 {
-    font-size: 3em;
-  }
-}
 
 h2, h4 {
+  background-color: #09070e;
   font-weight: 400;
   color: cornflowerblue;
 }
 
 h3 {
+  background-color: #09070e;
   font-size: 1.5em;
   font-weight: 500;
   color: lightblue;
@@ -72,10 +69,6 @@ p {
   color: #ebecff;
 }
 
-body {
-  background-color: #09070e;
-}
-
 i, strong {
   color: cornflowerblue;
 }
@@ -86,8 +79,7 @@ i, strong {
   align-items: center;
 }
 .tictactoe__title {
-  background-image: url("../assets/astres.jpg");
-  background-size: cover;
+  background-color: #09070e;
   padding: 5% 0%;
   margin: 0px;
   width: 100%;
@@ -98,9 +90,6 @@ i, strong {
 }
 .tictactoe__link {
   text-decoration: underline;
-}
-@media (min-width: 700px) {
-  .tictactoe__link {
-    font-size: 0.9em;
-  }
+  font-size: 1.2em;
+  font-weight: 500;
 }/*# sourceMappingURL=TicTacToe.css.map */
