@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/portefolio/static/css/main.f5ca5f42.css",
-    "main.js": "/portefolio/static/js/main.4fefa400.js",
+    "main.css": "/portefolio/static/css/main.c4564763.css",
+    "main.js": "/portefolio/static/js/main.1b7bc1a1.js",
     "static/js/787.34099e4b.chunk.js": "/portefolio/static/js/787.34099e4b.chunk.js",
     "static/media/baloonAstronaute.png": "/portefolio/static/media/baloonAstronaute.8fb345a45257a0f1f60b.png",
     "static/media/astres.jpg": "/portefolio/static/media/astres.67fe84e269cb256f143d.jpg",
     "static/media/fuseeAustronaute.png": "/portefolio/static/media/fuseeAustronaute.cd06c0816f3c16d3c220.png",
     "static/media/Audrey_mini.jpg": "/portefolio/static/media/Audrey_mini.e9825ed1eb83526fabae.jpg",
+    "static/media/CV_BONIS_Audrey.pdf": "/portefolio/static/media/CV_BONIS_Audrey.6d589d7c2927eba78f2c.pdf",
     "static/media/astronaute.png": "/portefolio/static/media/astronaute.c75911d31f5f47903cd6.png",
     "index.html": "/portefolio/index.html",
-    "main.f5ca5f42.css.map": "/portefolio/static/css/main.f5ca5f42.css.map",
-    "main.4fefa400.js.map": "/portefolio/static/js/main.4fefa400.js.map",
+    "main.c4564763.css.map": "/portefolio/static/css/main.c4564763.css.map",
+    "main.1b7bc1a1.js.map": "/portefolio/static/js/main.1b7bc1a1.js.map",
     "787.34099e4b.chunk.js.map": "/portefolio/static/js/787.34099e4b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f5ca5f42.css",
-    "static/js/main.4fefa400.js"
+    "static/css/main.c4564763.css",
+    "static/js/main.1b7bc1a1.js"
   ]
 }
