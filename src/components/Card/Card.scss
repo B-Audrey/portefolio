@@ -76,9 +76,9 @@
     text-decoration: none;
     padding: 5px;
     @media(min-width:600px){
-        font-size: 1.6em;
-        height: 40px;
-        bottom: 50px;
+        font-size: 1.2em;
+        height: 30px;
+        bottom: 40px;
     }
 }
 .flipCardSmall{
@@ -88,4 +88,5 @@
 }
 .backTitle{
     margin: 0% 0% 3% 0%;
+    background-color: transparent;
 }

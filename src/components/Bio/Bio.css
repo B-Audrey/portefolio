@@ -90,7 +90,13 @@ i, strong {
   text-align: justify;
 }
 .bio__info {
+  display: none;
   font-weight: 700;
+}
+@media (min-width: 1000px) {
+  .bio__info {
+    display: inline;
+  }
 }
 .bio__links {
   font-weight: 400;

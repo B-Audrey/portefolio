@@ -14,7 +14,11 @@
         text-align: justify;
     }
     &__info{
+        display: none;
         font-weight: 700;
+        @media(min-width:1000px){
+            display: inline;
+        }
     }
     &__links{
         font-weight: 400;
