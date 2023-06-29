@@ -21,23 +21,4 @@
             margin: 0%;
         }
     }
-    &__links{
-        font-weight: 400;
-        font-size: 1.5em;
-        color: $second-color;
-        margin: 10px 0px 10px 0px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        @media (min-width:600px){
-            margin: 0px;
-        }
-        & *{
-            color: $second-color;
-           margin: 0px 5px 0px 5px;
-           @media (min-width:1000px){
-            margin: 0px 10px 0px 10px;
-        }
-        }
-    }
 }

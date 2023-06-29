@@ -1,10 +1,10 @@
-@import '../../../styles/styles.scss';
+@import '../../styles/styles.scss';
 
 .autotext{
     margin-top: 2%;
     width: 100%;
     position: relative;
-    background-image: url('../../../assets/astres.jpg');
+    background-image: url('../../assets/astres.jpg');
     background-size: cover;
     height: 100vh;
     & span{

@@ -1,12 +1,12 @@
 import './Header.scss';
 import Title from "./Title/Title";
-import Autotext from "./Autotext/Autotext";
+import Nav from '../Nav/Nav';
 
 const Header = () => {
     return(
         <div className="header">
             <Title className='header__title' text='Développeuse web'/>
-            <Autotext className="header__text" />
+            <Nav />
         </div>
     )
 }

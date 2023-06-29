@@ -12,6 +12,7 @@
         font-size: 1.2em;
     }
     & a{
+        text-decoration: none !important;
         color: $main-background-color !important;
         height: 100%;
         width: 100%;

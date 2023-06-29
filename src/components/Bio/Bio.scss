@@ -1,15 +1,32 @@
 @import '../../styles/styles.scss';
 
 .bio{
+    display: flex;
+    flex-direction: column;
     box-sizing: border-box;
-    text-align: justify;
     border-radius: 5px;
     padding: 0% 5%;
     @media(min-width:1000px){
         width: calc(100% - 400px);
         padding: 0% 8%;
     }
+    &__text{
+        text-align: justify;
+    }
     &__info{
         font-weight: 700;
+    }
+    &__links{
+        font-weight: 400;
+        font-size: 1.5em;
+        color: $second-color;
+        
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        & *{
+            color: $second-color;
+            margin: 10px 0px 10px 10px;
+        }
     }
 }
