@@ -94,7 +94,7 @@ h3 {
 
 .profil__perso {
   margin-top: 3%;
-  padding: 3% 5%;
+  padding: 5%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -157,7 +157,7 @@ h3 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 3% 5%;
+  padding: 5%;
   width: 100%;
 }
 
