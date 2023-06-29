@@ -80,23 +80,23 @@ i, strong {
   color: cornflowerblue;
 }
 
-.board-row {
-  display: flex;
-  justify-content: center;
-}
-
-.message {
-  text-align: center;
-  font-size: 2em;
-  margin: 10% 0%;
-}
-@media (min-width: 600px) {
-  .message {
-    margin: 5% 0%;
-  }
+.button {
+  background-color: lightblue;
+  color: #09070e !important;
+  border-radius: 10px;
+  border: 1px solid #09070e;
+  padding: 10px;
+  height: auto;
+  font-size: 0.8em;
 }
 @media (min-width: 1000px) {
-  .message {
-    margin: 3% 0%;
+  .button {
+    font-size: 1.2em;
   }
-}/*# sourceMappingURL=Board.css.map */
+}
+.button a {
+  text-decoration: none !important;
+  color: #09070e !important;
+  height: 100%;
+  width: 100%;
+}/*# sourceMappingURL=Button.css.map */

@@ -1,21 +1,46 @@
 @import './styles.scss';
 main{
-    width: 90%;
+    width: 100%;
     margin: auto;
     max-width: 1400px;
 }
 h3{
     text-align: center;
-    margin: 8% 0% 4% 0%;
+    padding: 4% 0%;
+    margin: 0%;
 }
+
 .homeButtons{
     display: flex;
     justify-content: space-around;
     position: relative;
-    bottom: 35vh;
+    bottom: 10vh;
 }
+
 .profil{
     &__perso{
+        margin-top: 3%;
+        padding: 3% 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        background-color: $main-background-color;
+        @media(min-width:1000px){
+            flex-direction: row;
+        }
+    }
+    &__perso--text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        @media(min-width:1000px){
+            width: calc(100% - 400px);
+        }
+    }
+    &__pro{
+        margin-top: 10%;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -24,43 +49,43 @@ h3{
             flex-direction: row;
         }
     }
-    &__pro{
+    &__pro--text{
         display: flex;
-        flex-direction: column-reverse;
-        justify-content: space-between;
+        flex-direction: column;
         align-items: center;
-        @media(min-width:1000px){
-            flex-direction: row;
-        }
+    }
+    &__pro--background{
+        box-sizing: border-box;
+        width: 100%;
+        padding: 3% 10%;
+        background-color: $main-background-color;
     }
 }
-.galleryContent{
+.galleryBloc{
+    margin-top: 10%;
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     @media(min-width:1000px){
         flex-direction: row;
     }
-}
-.footerImg{
-    width: 100%;
-    padding-top: 100px;
-    margin: auto;
-    @media(min-width:600px){
-        width: 70%;
-    }
-    @media(min-width:1000px){
-        width: 50%;
+    &__content{
+        box-sizing: border-box;
+        background-color: $main-background-color;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 3% 5%;
+        width: 100%;
     }
 }
 .contact{
+    margin-top: 10%;
+    padding: 3% 10%;
+    background-color: $main-background-color;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 80%;
-    margin: auto;
-    text-align: center;
     @media(min-width:600px){
-        width: 90%;
         font-size: 1.1em;
     }
     @media(min-width:1000px){
@@ -71,7 +96,18 @@ h3{
     }
 }
 .end__buttons{
+    background-color: $main-background-color;
     display: flex;
     justify-content: space-around;
+    padding: 3% 10%;
+}
+.footerImg{
     width: 100%;
+    margin: auto;
+    @media(min-width:600px){
+        width: 70%;
+    }
+    @media(min-width:1000px){
+        width: 50%;
+    }
 }

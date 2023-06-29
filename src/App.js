@@ -10,6 +10,7 @@ import Footer from './components/Footer/Footer';
 function App() {
   return (
     <>
+     <div className="parallax">
       <SmallerPage />
         <Routes>
           <Route path='/portefolio/' element={<Home />}/>
@@ -19,6 +20,7 @@ function App() {
           <Route path='*' element={<WrongPage />}/>
         </Routes>
         <Footer />
+      </div>
     </>
   );
 }

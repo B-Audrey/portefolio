@@ -18,21 +18,21 @@ ul li{
 }
 
 h1{
+    
     font-size: 1.8em;
     font-weight: 700;
     color: $main-light-color;
     @media (min-width:600px){
         font-size: 2.5em;
     }
-    @media (min-width:1000px){
-        font-size: 3em;
-    }
 }
 h2, h4{
+    background-color: $main-background-color;
     font-weight: 400;
     color: $second-color;
 }
 h3{
+    background-color: $main-background-color;
     font-size: 1.5em;
     font-weight: 500;
     color: $main-light-color;
@@ -58,9 +58,6 @@ h5{
 }
 p{
     color: $main-text-color;
-}
-body{
-    background-color: $main-background-color;
 }
 i, strong{
     color: $second-color;

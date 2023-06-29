@@ -23,18 +23,15 @@ h1 {
     font-size: 2.5em;
   }
 }
-@media (min-width: 1000px) {
-  h1 {
-    font-size: 4em;
-  }
-}
 
 h2, h4 {
+  background-color: #09070e;
   font-weight: 400;
   color: cornflowerblue;
 }
 
 h3 {
+  background-color: #09070e;
   font-size: 1.5em;
   font-weight: 500;
   color: lightblue;
@@ -64,14 +61,14 @@ h4 {
   }
 }
 
+h5 {
+  font-size: 1.2em;
+}
+
 p {
   color: #ebecff;
 }
 
-body {
-  background-color: #09070e;
-}
-
-i {
+i, strong {
   color: cornflowerblue;
 }/*# sourceMappingURL=styles.css.map */

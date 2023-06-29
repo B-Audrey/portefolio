@@ -1,1 +1,88 @@
-/*# sourceMappingURL=BoardSquare.css.map */
+a {
+  color: #ebecff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+a:active {
+  color: cornflowerblue;
+}
+
+ul li {
+  list-style: none;
+}
+
+h1 {
+  font-size: 1.8em;
+  font-weight: 700;
+  color: lightblue;
+}
+@media (min-width: 600px) {
+  h1 {
+    font-size: 2.5em;
+  }
+}
+@media (min-width: 1000px) {
+  h1 {
+    font-size: 3em;
+  }
+}
+
+h2, h4 {
+  font-weight: 400;
+  color: cornflowerblue;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-weight: 500;
+  color: lightblue;
+}
+@media (min-width: 600px) {
+  h3 {
+    font-size: 2em;
+  }
+}
+@media (min-width: 1000px) {
+  h3 {
+    font-size: 2.5em;
+  }
+}
+
+h4 {
+  font-size: 1em;
+}
+@media (min-width: 600px) {
+  h4 {
+    font-size: 1.5em;
+  }
+}
+@media (min-width: 1000px) {
+  h4 {
+    font-size: 2em;
+  }
+}
+
+h5 {
+  font-size: 1.2em;
+}
+
+p {
+  color: #ebecff;
+}
+
+body {
+  background-color: #09070e;
+}
+
+i, strong {
+  color: cornflowerblue;
+}
+
+.square {
+  height: 95px;
+  width: 95px;
+  color: cornflowerblue;
+  font-size: 2em;
+}/*# sourceMappingURL=BoardSquare.css.map */

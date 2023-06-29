@@ -3,19 +3,18 @@
 .header{
     display: flex;
     flex-direction: column;
-    width: 90%;
-    padding: 0% 5%;
-    margin: auto;
+    width: 100%;
     align-items: center;
     background-color: $main-background-color;
     @media(min-width:600px){
+    }
+    @media(min-width:1000px){
+        box-sizing: border-box;
+        padding: 0% 5%;
         position: fixed;
         top: 0px;
         left: 0px;
         z-index: 1;
-
-    }
-    @media(min-width:1000px){
         flex-direction: row;
         justify-content: space-between;
         height: 100px;

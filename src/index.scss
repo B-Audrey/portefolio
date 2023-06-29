@@ -1,7 +1,6 @@
 @import './styles/styles.scss';
 
 body {
-  background-color: $main-background-color;
   margin: auto;
   width: 100%;
   font-family: -apple-system, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -14,4 +13,12 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+.parallax{
+  background-attachment: fixed; 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url('./assets/astres.jpg');
+  height: 100%;
 }

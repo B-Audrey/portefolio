@@ -3,18 +3,20 @@
 .autotext{
     margin-top: 2%;
     width: 100%;
-    position: relative;
-    background-image: url('../../assets/astres.jpg');
-    background-size: cover;
-    height: 100vh;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20vh;
+    @media(min-width:600px){
+        height: 60vh;
+    }
     & span{
         font-size: 1.7em;
         color: $main-text-color;
         text-align: center;
-        padding: 20% 10% 5% 10%;
         @media(min-width:600px){
             font-size: 2em;
-
         }
     }
 }

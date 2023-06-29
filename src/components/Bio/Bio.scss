@@ -7,8 +7,8 @@
     border-radius: 5px;
     padding: 0% 5%;
     @media(min-width:1000px){
-        width: calc(100% - 400px);
-        padding: 0% 8%;
+        padding: 0% 5%;
+        margin-bottom: 10%;
     }
     &__text{
         text-align: justify;

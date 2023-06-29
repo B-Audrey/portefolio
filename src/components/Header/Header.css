@@ -23,11 +23,6 @@ h1 {
     font-size: 2.5em;
   }
 }
-@media (min-width: 1000px) {
-  h1 {
-    font-size: 4em;
-  }
-}
 
 h2, h4 {
   font-weight: 400;
@@ -64,15 +59,15 @@ h4 {
   }
 }
 
+h5 {
+  font-size: 1.2em;
+}
+
 p {
   color: #ebecff;
 }
 
-body {
-  background-color: #09070e;
-}
-
-i {
+i, strong {
   color: cornflowerblue;
 }
 
@@ -80,10 +75,19 @@ i {
   display: flex;
   flex-direction: column;
   width: 100%;
+  align-items: center;
+  background-color: #09070e;
 }
-.header__title {
-  width: 100%;
-}
-.header__text {
-  width: 100%;
+@media (min-width: 1000px) {
+  .header {
+    box-sizing: border-box;
+    padding: 0% 5%;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+  }
 }/*# sourceMappingURL=Header.css.map */

@@ -28,31 +28,34 @@ const Home = () => {
         </header>
         <main className="mainContent">
             <article className="profil" id="profil">
-                <h3>Profil</h3>
                 <div className="profil__perso">
                   <Card />
-                  <Bio />
+                  <div className="profil__perso--text" >
+                    <h3>Profil</h3>
+                    <Bio />
+                  </div>
                 </div>
-                <h3>Compétences</h3>
                 <div className="profil__pro">
-                  <Ressources />
+                  <div className="profil__pro--background">
+                    <div className="profil__pro--text" >
+                      <h3>Compétences</h3>
+                      <Ressources />
+                    </div>
+                  </div>
                   <ImageBloc img={baloonAstronaute}/>
                 </div>
             </article>
-            <article className="asideGallery" id="projet">
-              <h3>Projets</h3>
-              <div className="galleryContent">
+            <article className="galleryBloc" id="projet">
               <ImageBloc img={computerAstronaute}/>
-              { data ? <Gallery data={data}/> : null } 
+              <div className="galleryBloc__content">
+                <h3>Projets</h3>
+                { data ? <Gallery data={data}/> : null } 
               </div>
             </article>
-            <aside id="contact">
+            <aside className="contact" id="contact">
               <h3>Contact</h3>
-              <div className="contact" >
-                <p className="contact__text">Vous pouvez me contacter par email à l'adresse : <a href="mailto:bonis.audreyy@gmail.com"><strong>bonis.audreyy@gmail.com</strong></a> ou via le</p>
-                <Button text='Formulaire de contact' link="/portefolio/contact"/>
-              </div>
-              
+              <p className="contact__text">Vous pouvez me contacter par email à l'adresse : <a href="mailto:bonis.audreyy@gmail.com"><strong>bonis.audreyy@gmail.com</strong></a> ou via le</p>
+              <Button text='Formulaire de contact' link="/portefolio/contact"/>
             </aside>        
             <div className='footerImg'>
               <ImageBloc img={fuseeAstronaute} />

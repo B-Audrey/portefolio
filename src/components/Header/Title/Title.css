@@ -23,18 +23,15 @@ h1 {
     font-size: 2.5em;
   }
 }
-@media (min-width: 1000px) {
-  h1 {
-    font-size: 4em;
-  }
-}
 
 h2, h4 {
+  background-color: #09070e;
   font-weight: 400;
   color: cornflowerblue;
 }
 
 h3 {
+  background-color: #09070e;
   font-size: 1.5em;
   font-weight: 500;
   color: lightblue;
@@ -64,51 +61,29 @@ h4 {
   }
 }
 
+h5 {
+  font-size: 1.2em;
+}
+
 p {
   color: #ebecff;
 }
 
-body {
-  background-color: #09070e;
-}
-
-i {
+i, strong {
   color: cornflowerblue;
 }
 
 .title {
-  width: 100%;
-  display: flex;
-  justify-content: space-around;
-  flex-direction: column;
-  align-items: center;
+  display: block;
 }
 @media (min-width: 600px) {
   .title {
-    flex-direction: row;
-    margin: 3% 0%;
+    margin: 0%;
   }
 }
 @media (min-width: 1000px) {
   .title {
     margin: 1% 0%;
-  }
-}
-.title__work {
-  text-align: center;
-  margin: 5% 0% 0% 0%;
-  padding-right: 20px;
-}
-@media (min-width: 600px) {
-  .title__work {
-    margin: 0%;
-  }
-}
-.title__name {
-  margin: 0% 0% 5% 0%;
-}
-@media (min-width: 600px) {
-  .title__name {
-    margin: 0%;
+    max-width: 50%;
   }
 }/*# sourceMappingURL=Title.css.map */

@@ -80,23 +80,47 @@ i, strong {
   color: cornflowerblue;
 }
 
-.board-row {
-  display: flex;
-  justify-content: center;
+.error {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  justify-items: center;
+  align-items: center;
+  height: 60vh;
+  box-sizing: border-box;
+  margin-top: 5%;
 }
-
-.message {
-  text-align: center;
-  font-size: 2em;
-  margin: 10% 0%;
+.error__code {
+  margin: auto;
+  font-size: 4em;
+  font-weight: 700;
 }
-@media (min-width: 600px) {
-  .message {
-    margin: 5% 0%;
+@media (min-width: 700px) {
+  .error__code {
+    font-size: 8em;
   }
 }
 @media (min-width: 1000px) {
-  .message {
-    margin: 3% 0%;
+  .error__code {
+    font-size: 10em;
   }
-}/*# sourceMappingURL=Board.css.map */
+}
+.error__text {
+  font-size: 0.8em;
+  width: 80%;
+  text-align: center;
+}
+@media (min-width: 700px) {
+  .error__text {
+    font-size: 1.2em;
+    width: 100%;
+  }
+}
+.error__link {
+  font-size: 0.7em;
+  text-decoration: underline;
+}
+@media (min-width: 700px) {
+  .error__link {
+    font-size: 0.9em;
+  }
+}/*# sourceMappingURL=WrongPage.css.map */

@@ -23,18 +23,15 @@ h1 {
     font-size: 2.5em;
   }
 }
-@media (min-width: 1000px) {
-  h1 {
-    font-size: 4em;
-  }
-}
 
 h2, h4 {
+  background-color: #09070e;
   font-weight: 400;
   color: cornflowerblue;
 }
 
 h3 {
+  background-color: #09070e;
   font-size: 1.5em;
   font-weight: 500;
   color: lightblue;
@@ -64,27 +61,46 @@ h4 {
   }
 }
 
+h5 {
+  font-size: 1.2em;
+}
+
 p {
   color: #ebecff;
 }
 
-body {
-  background-color: #09070e;
-}
-
-i {
+i, strong {
   color: cornflowerblue;
 }
 
 .bio {
+  display: flex;
+  flex-direction: column;
   box-sizing: border-box;
-  text-align: justify;
   border-radius: 5px;
   padding: 0% 5%;
 }
 @media (min-width: 1000px) {
   .bio {
-    width: calc(100% - 400px);
-    padding: 0% 8%;
+    padding: 0% 5%;
+    margin-bottom: 10%;
   }
+}
+.bio__text {
+  text-align: justify;
+}
+.bio__info {
+  font-weight: 700;
+}
+.bio__links {
+  font-weight: 400;
+  font-size: 1.5em;
+  color: cornflowerblue;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.bio__links * {
+  color: cornflowerblue;
+  margin: 10px 0px 10px 10px;
 }/*# sourceMappingURL=Bio.css.map */
