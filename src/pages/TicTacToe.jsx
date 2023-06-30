@@ -4,9 +4,6 @@ import Button from '../components/Button/Button'
 import { HashLink } from 'react-router-hash-link';
 
 const TicTacToe = () => {
-    const refresh = () => {
-        window.location.reload(false);
-    }
 
     return (
         <>
@@ -14,10 +11,7 @@ const TicTacToe = () => {
             <h1 className='tictactoe__title'>Tic Tac Toe</h1>
             <div className='tictactoe__board'>
                 <Board />
-            </div>
-            <div onClick={refresh} className='tictactoe__restart'>
-                <p>Recommencer</p>
-            </div>
+            </div> 
             <HashLink className='tictactoe__link' to='/portefolio/#home'>Retourner sur la page d'accueil</HashLink>
         </div>
         </>

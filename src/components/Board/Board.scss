@@ -1,17 +1,41 @@
 @import '../../styles/styles.scss';
 
-.board-row {
-    display: flex;
-    justify-content: center;
-}
-.message{
-    text-align: center;
-    font-size: 2em;
-    margin: 10% 0%;
-    @media(min-width:600px){
-        margin: 5% 0%;
+
+.board {
+    margin-bottom: 20px;
+
+    &__message {
+        text-align: center;
+        font-size: 2em;
+        margin: 10% 0%;
+
+        @media(min-width:600px) {
+            margin: 40px 0;
+        }
     }
-    @media(min-width:1000px){
-        margin: 3% 0%;
+
+    &__row {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.tictactoe__restart {
+    margin: auto;
+    background-color: $main-light-color;
+    border-radius: 10px;
+    border: 1px solid $main-background-color;
+    padding: 10px;
+    height: auto;
+    text-align: center;
+    width: 150px;
+
+    & p {
+        color: $main-background-color !important;
+        font-size: 0.8em;
+
+        @media(min-width:1000px) {
+            font-size: 1.2em;
+        }
     }
 }
