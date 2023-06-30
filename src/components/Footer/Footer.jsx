@@ -7,7 +7,7 @@ const Footer = () => {
         <footer className='footer'>
             <div className="footer__wrapper">
                 <div className="footer__link">
-                    <h4>Trouver sa route</h4>
+                    <h4>Retrouver sa route</h4>
                     <HashLink to='/portefolio/#home'>
                         <i className="fa-solid fa-clock"></i>
                         &nbsp; Remonter le temps</HashLink>
@@ -17,7 +17,7 @@ const Footer = () => {
                     </HashLink>
                     <Link to="/portefolio/tictactoe" className="page__link">
                         <i className="fa-solid fa-table-cells-large"></i>
-                        &nbsp; Jouer au morpion avec un collegue
+                        &nbsp; Jouer au morpion avec un collègue
                     </Link>
                     <HashLink to="/portefolio/#contact" className="page__link">
                         <i className="fa-solid fa-satellite-dish"></i>
@@ -43,7 +43,7 @@ const Footer = () => {
                     <h4>Mentions</h4>
                     <span className="mention">
                         <i className="fa-solid fa-image"></i>
-                        <p>&nbsp; Images libres de droit :</p>
+                        <p>&nbsp; Images libres de droit :&nbsp;</p>
                         <Link to="http://www.freepik.com">Designed by catalyststuff / Freepik</Link>
                     </span>
                 </div>

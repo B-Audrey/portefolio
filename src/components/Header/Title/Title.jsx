@@ -1,9 +1,12 @@
 import './Title.scss';
+import { HashLink } from 'react-router-hash-link';
 
 
 const Title = ({text}) => {
     return(
-        <h1 className='title'>{text}</h1>      
+        <HashLink to='/portefolio/#home' className='title' id='header'>
+            <h1>{text}</h1>
+        </HashLink>    
     )
 }
 

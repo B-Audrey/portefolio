@@ -17,7 +17,7 @@ const TicTacToe = () => {
             <div onClick={refresh} className='tictactoe__restart'>
                 <Button text="Click here to play again"/>
             </div>
-            <Link className='tictactoe__link' to="/portefolio/">Retourner sur la page d'accueil</Link>
+            <Link className='tictactoe__link' to='/portefolio/#home'>Retourner sur la page d'accueil</Link>
         </div>
         </>
         );

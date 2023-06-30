@@ -15,7 +15,8 @@ const Nav = () => {
             <ul className={`nav__bloc nav__bloc${isOpen ? '--open' : '--close'}`}>
                 <li><HashLink to="#profil"><i className="fa-solid fa-address-card"></i> &nbsp; Profil</HashLink></li>
                 <li><HashLink to="#competences"><i className="fa-solid fa-laptop-code"></i>&nbsp; Compétences</HashLink></li>
-                <li><HashLink to="#realisations"><i className="fa-solid fa-file-code"></i>&nbsp; Réalisations</HashLink></li>
+                <li><HashLink to="#projets"><i className="fa-solid fa-file-code"></i>&nbsp; Projets</HashLink></li>
+                <li><HashLink to="#contact" className="page__link"><i className="fa-solid fa-satellite-dish"></i>&nbsp; Contact</HashLink></li>
             </ul>
         </nav>
     

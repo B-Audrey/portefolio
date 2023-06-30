@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import photo from '../../assets/Audrey_mini.jpg';
 import './Card.scss';
 
@@ -28,7 +28,7 @@ const Card = () => {
                         </ul>
                         <h5>Vous avez un projet web ?</h5>
                     </div>
-                    <Link className="shadow-text" to='/contact'>CONTACTEZ-MOI</Link>
+                    <HashLink className="shadow-text" to='#contact'>CONTACTEZ-MOI</HashLink>
                 </div>
             </div>
        </aside>

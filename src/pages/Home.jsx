@@ -23,12 +23,12 @@ const Home = () => {
             <Autotext className="header__text" />
             <div className="homeButtons">
               <Button text="Atterrir sur mon profil" hashLink="#profil"/>
-              <Button text="Jouer au morpion" link="/portefolio/tictactoe"/>
+              <Button text="Jouer avec un ami" link="/portefolio/tictactoe"/>
               <Button text="Consulter mes projets" hashLink="#projet"/>
             </div>
         </header>
-        <main className="mainContent">
-            <article className="profil" id="profil">
+        <main className="mainContent" id="profil">
+            <article className="profil" >
                 <div className="profil__perso">
                   <Card />
                   <div className="profil__perso--text" >
@@ -36,8 +36,8 @@ const Home = () => {
                     <Bio />
                   </div>
                 </div>
-                <div className="profil__pro">
-                  <div className="profil__pro--background">
+                <div className="profil__pro" >
+                  <div className="profil__pro--background" id="competences" >
                     <div className="profil__pro--text" >
                       <h3>Compétences</h3>
                       <Ressources />
@@ -46,7 +46,7 @@ const Home = () => {
                   <ImageBloc img={baloonAstronaute}/>
                 </div>
             </article>
-            <article className="galleryBloc" id="projet">
+            <article className="galleryBloc" id="projets">
               <ImageBloc img={computerAstronaute}/>
               <div className="galleryBloc__content">
                 <h3>Projets</h3>
@@ -59,14 +59,6 @@ const Home = () => {
             </aside>        
             <div className='footerImg'>
               <ImageBloc img={fuseeAstronaute} />
-            </div>
-            <div className="navigation">
-              <h3>Naviguer</h3>
-              <div className="end__buttons">
-                <Button text="Remonter le temps" hashLink="/#home"/>
-                <Button text="Atterrir sur mon profil" hashLink="#profil"/>
-                <Button text="Jouer au morpion" link="/tictactoe"/>
-              </div>
             </div>
         </main>
         </>
