@@ -22,7 +22,7 @@ const Gallery = ({data}) => {
                                         <li key={`${tag}-${index}`}>{tag}</li>)}
                                     </ul>
                                 </div>
-                                <Link to={current.link} className='Gallery__link shadow-text'>Consulter le code</Link>
+                                <Link to={current.link} className='Gallery__link shadow-text' target='_blank'>Consulter le code</Link>
                             </div>
                         </div>
                     </div>
