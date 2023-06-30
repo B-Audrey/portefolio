@@ -24,7 +24,7 @@ const Home = () => {
             <div className="homeButtons">
               <Button text="Atterrir sur mon profil" hashLink="#profil"/>
               <Button text="Jouer avec un ami" link="/portefolio/tictactoe"/>
-              <Button text="Consulter mes projets" hashLink="#projet"/>
+              <Button text="Consulter mes réalisations" hashLink="#projets"/>
             </div>
         </header>
         <main className="mainContent" id="profil">

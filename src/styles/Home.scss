@@ -61,7 +61,7 @@ h3{
     }
 }
 .galleryBloc{
-    margin: 10% 0%;
+    margin: 5% 0%;
     display: flex;
     flex-direction: column-reverse;
     @media(min-width:1000px){
@@ -72,10 +72,10 @@ h3{
         background-color: $main-background-color;
         display: flex;
         flex-direction: column;
+        
         align-items: center;
         padding: 5%;
         width: 100%;
-        margin-bottom: 10%;
     }
 }
 .contact{

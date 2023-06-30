@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import { HashLink } from "react-router-hash-link";
 import './Footer.scss';
+import cv from '../../doc/CV_BONIS_Audrey.pdf'
 
 const Footer = () => {
     return (
@@ -36,7 +37,7 @@ const Footer = () => {
                     </Link>
                     <span>
                         <i className="fa-solid fa-file-arrow-down"></i>
-                        &nbsp; <a href="../doc/CV_BONIS_Audrey.pdf" download>Téléchargez mon CV</a>
+                        &nbsp; <a href={cv} download>Téléchargez mon CV</a>
                     </span>
                 </div>
                 <div className="footer__link">
@@ -44,7 +45,7 @@ const Footer = () => {
                     <span className="mention">
                         <i className="fa-solid fa-image"></i>
                         <p>&nbsp; Images libres de droit :&nbsp;</p>
-                        <Link to="http://www.freepik.com">Designed by catalyststuff / Freepik</Link>
+                        <Link to="http://www.freepik.com" target="_blank">Designed by catalyststuff / Freepik</Link>
                     </span>
                 </div>
             </div>
