@@ -4,7 +4,8 @@
         "title":"Booki",
         "cover":"/portefolio/assets/logoBooki.png",
         "link": "https://github.com/B-Audrey/P2-HTML_CSS",
-        "linkText":"Création d'une page vitrine statique",
+        "linkText":"2023 : Création d'une page web statique responsive",
+        "description": "Découverte des langages HTML et CSS et des outils Figma, VSCode. ",
         "elements": [
             "CSS",
             "HTML"
@@ -15,7 +16,8 @@
         "title":"Sophie Bluel",
         "cover":"/portefolio/assets/sophie-bluel.png",
         "link": "https://github.com/B-Audrey/P3-JavaScriptNatif",
-        "linkText":"Réalisaiton d'une gallerie photo",
+        "linkText":"2023 : Réalisation d'une gallerie photo",
+        "description": "Premiers pas sur Javascript et sa syntaxe, utilisation de la console et premiers appels au backend pour récupérer des données ",
         "elements": [
             "Javascript",
             "CSS",
@@ -27,7 +29,8 @@
         "title":"Menu Maker by Qwenta",
         "cover":"/portefolio/assets/menu-maker.png",
         "link": "https://www.notion.so/Menu-Maker-by-Qwenta-1ba70837b79b49b58a370b5b68638d0a?pvs=4",
-        "linkText":"Plannification d'un projet de développement",
+        "linkText":"2023 : Plannification d'un projet de développement",
+        "description": "Initiation aux outils de travail des développeurs : Jira, Notion, Trello et à la méthode agile, Kanban. Recherche de solutions techniques pour répondre à des besoins exprimés en Users Stories. ",
         "elements": [
             "Gestion de projet"
         ]
@@ -37,9 +40,12 @@
         "title":"Mon Vieux Grimoire",
         "cover":"/portefolio/assets/grimoire.png",
         "link": "https://github.com/B-Audrey/P7-NodeJs_MongoDB",
-        "linkText":"Ajout d'un backend sur une page web",
+        "linkText":"2023 : Ajout d'un backend sur une page web",
+        "description": "Apprentissage de NodeJS avec Express pour la création des routes d'une API, utilisation de Postman pour les requêtes, configuration d'une base de données Mongo DB notions en sécurité web.",
         "elements": [
-            "NodeJS"
+            "NodeJS",
+            "Express",
+            "Mongo DB"
         ]
     },
     {
@@ -48,6 +54,7 @@
         "cover":"/portefolio/assets/nina.png",
         "link": "https://github.com/B-Audrey/P5-SEO",
         "linkText":"Amélioration du SEO et accessibilité",
+        "description": "Optimisation d'un site web, avec modale en JQuery vers une modale plus léégère en Javascript et entièrement navigable au clavier. Intégration des balises meta pour les réseaux sociaux et ajout du référencement local",
         "elements": [
             "JavaScript",
             "CSS",
@@ -60,6 +67,7 @@
         "cover":"/portefolio/assets/logoKasa.png",
         "link": "https://github.com/B-Audrey/P6-React",
         "linkText":"Intégration d'une maquette dynamique découpée en composants",
+        "description": "Initiation à React, découverte de ses architectures, ses librairies et les animations web Sass.",
         "elements": [
             "React",
             "Javascript",

@@ -21,7 +21,7 @@ const Board = () => {
   // initialise un array de 9 elements null chacun ayant un état et leur set pour le modifier
   const [squares, setSquares] = useState(Array(9).fill(null));
   const [isXNext, setXIsNext] = useState(true);
-  let [message, setMessage] = useState('Welcome to the game, let\'s start with X player')
+  let [message, setMessage] = useState('Bienvenue sur le jeux, le joueur X commence !')
 
   function handleClick(i) {
     //si une valeur est déjà affectée, on le modifie pas, on sort
@@ -30,16 +30,16 @@ const Board = () => {
     }
     const nextSquares = squares.slice();
     nextSquares[i] = isXNext ? 'X' : 'O';
-    message = isXNext ? 'O trun to play !' : 'X turn to play !';
+    message = isXNext ? 'Au tour du joueur O !' : 'Au tour du joueur X !';
     setSquares(nextSquares);
     setXIsNext(!isXNext);
     const isAWinner = getAWinner(nextSquares);
     if (isAWinner) {
-      message = 'The winner is ' + isAWinner + ' player, CONGRAT\'S 😃';
+      message = 'Le joueur ' + isAWinner + ' gagne, FÉLICITATIONS 🥳';
     }
     const isNullGame = nextSquares.find((e) => e === null)
     if (isNullGame === undefined) {
-      message = 'No winner, click on the button to try it again';
+      message = 'Égalité ! Cliquez sur le bouton pour rejouer ! 😃';
     }
     setMessage(message);
   }
@@ -47,7 +47,7 @@ const Board = () => {
   function restart() {
     setSquares(Array(9).fill(null));
     setXIsNext(true);
-    setMessage('Welcome to the game, let\'s start with X player');
+    setMessage('C\'est reparti ! Le joueur X démarre !');
   }
 
   return (
