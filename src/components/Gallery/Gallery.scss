@@ -16,8 +16,12 @@
         border-radius: 10px;
         width: 290px;
         height: 250px;
+        @media (min-width: 600px){
+            width: 275px;
+            gap: 5px;
+        }
         @media (min-width: 1000px){
-            width: 450px;
+            width: 350px;
             height: 300px;
         }
     }
@@ -40,7 +44,7 @@
     color: $main-background-color;
     font-size: 0.7em;
     margin: 10px;
-    @media (min-width: 600px){
+    @media (min-width: 1000px){
         font-size: 0.9em;
     }
 }
