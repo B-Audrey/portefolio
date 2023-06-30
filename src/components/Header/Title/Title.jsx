@@ -1,12 +1,12 @@
 import './Title.scss';
-import { HashLink } from 'react-router-hash-link';
+import { Link } from "react-scroll";
 
 
 const Title = ({text}) => {
     return(
-        <HashLink to='/portefolio/#home' className='title' id='header'>
+        <Link to='home' smooth={true} duration={1000} className='title' id='header'>
             <h1>{text}</h1>
-        </HashLink>    
+        </Link>    
     )
 }
 

@@ -18,14 +18,17 @@
     &__text{
         color: $second-color;
         cursor: pointer;
+        @media(min-width:1000px){
+            padding-right: 1%;
+        }
     }
     &__btn{
         cursor: pointer;
         background-color: $main-background-color;
         border: none;
-        margin: 1% 0%;
+        padding: 1% 0%;
         @media(min-width:1000px){
-            margin: 0% 1%;
+            padding: 0% 1%;
         }
         & img{
             height: 30px;
