@@ -11,8 +11,20 @@
         width: 100%;
         text-align: center;
     }
-    &__restart{
+    &__restart {
         margin: 5% 0%;
+        background-color: $main-light-color;
+        border-radius: 10px;
+        border: 1px solid $main-background-color;
+        padding: 10px;
+        height: auto;
+        & p{
+            color: $main-background-color !important;
+            font-size: 0.8em;
+            @media(min-width:1000px){
+                font-size: 1.2em;
+            }
+        }
     }
     &__link{
         text-decoration: underline;

@@ -10,7 +10,7 @@
     font-size: 1.2em;
     @media (min-width:600px){
         margin-top: 10%;
-        height: 250px;
+        height: 300px;
     }
     @media (min-width:1000px){
         justify-content: center;
@@ -23,7 +23,8 @@
         font-size: 0.7em;
         display:flex;
         flex-direction: column;
-        width: 100%;
+        width: 80%;
+        margin: auto;
         @media (min-width:600px){
             flex-direction: row;
             column-gap: 5%;
@@ -36,10 +37,7 @@
             width: 30%;
         }
         & *{
-            margin: 2px 0px;
-            @media (min-width:600px){
-                margin: 5px 0px;
-            }
+            margin: 5px 0px;
         }
     }
 }

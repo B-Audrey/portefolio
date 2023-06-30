@@ -7,6 +7,7 @@ const TicTacToe = () => {
     const refresh = () => {
         window.location.reload(false);
     }
+
     return (
         <>
         <div className='tictactoe'>
@@ -15,7 +16,7 @@ const TicTacToe = () => {
                 <Board />
             </div>
             <div onClick={refresh} className='tictactoe__restart'>
-                <Button text="Click here to play again"/>
+                <p>Recommencer</p>
             </div>
             <HashLink className='tictactoe__link' to='/portefolio/#home'>Retourner sur la page d'accueil</HashLink>
         </div>
