@@ -1,6 +1,6 @@
 import './ImageBloc.scss'
 
-const ImageBloc = ({img}) => {
+const ImageBloc = () => {
     return(
         <div className='banner'>
         </div>

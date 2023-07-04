@@ -5,9 +5,6 @@ import Header from '../components/Header/Header';
 import Ressources from "../components/Ressources/Ressources";
 import Bio from "../components/Bio/Bio";
 import ImageBloc from "../components/ImageBloc/ImageBloc";
-import baloonAstronaute from "../assets/baloonAstronaute.png";
-import fuseeAstronaute from '../assets/fuseeAustronaute.png';
-import computerAstronaute from '../assets/astronaute.png';
 import Button from "../components/Button/Button";
 import Autotext from "../components/Autotext/Autotext";
 import data from "../data.json";
@@ -44,11 +41,11 @@ const Home = () => {
                       <Ressources />
                     </div>
                   </div>
-                  <ImageBloc img={baloonAstronaute}/>
+                  <ImageBloc />
                 </div>
             </article>
             <article className="galleryBloc" id="projets">
-              <ImageBloc img={computerAstronaute}/>
+              <ImageBloc/>
               <div className="galleryBloc__content">
                 <h3>Projets</h3>
                 { data ? <Gallery data={data}/> : null } 
@@ -59,7 +56,7 @@ const Home = () => {
               <p className="contact__text">Vous pouvez me contacter par email à l'adresse : <a href="mailto:bonis.audreyy@gmail.com"><strong>bonis.audreyy@gmail.com</strong></a> ou via la messagerie <Link to="https://www.linkedin.com/in/audrey-bonis/" target="_blank"><strong>LinkedIn</strong>,</Link> je vous répondrais au plus vite.</p>
             </aside>        
             <div className='footerImg'>
-              <ImageBloc img={fuseeAstronaute} />
+              <ImageBloc />
             </div>
         </div>
         </main>
