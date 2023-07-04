@@ -1,6 +1,7 @@
 @import '../../../styles/styles.scss';
 
 .title{
+    cursor: pointer;
     display: block;
     @media(min-width:600px){
         margin: 0%;

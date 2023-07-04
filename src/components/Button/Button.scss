@@ -1,6 +1,7 @@
 @import  '../../styles/styles.scss';
 
 .button{
+    cursor: pointer;
     background-color: transparent;
     border-radius: 10px;
     border: 1px solid $main-background-color;
@@ -12,6 +13,7 @@
         font-size: 1.2em;
     }
     & a{
+        font-weight: 700;
         text-decoration: none !important;
         color: $main-background-color !important;
         height: 100%;

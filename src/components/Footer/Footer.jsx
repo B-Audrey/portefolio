@@ -18,7 +18,7 @@ const Footer = () => {
                     </HashLink>
                     <Link to="/portefolio/tictactoe" className="page__link">
                         <i className="fa-solid fa-table-cells-large"></i>
-                        &nbsp; Jouer au morpion avec un collègue
+                        &nbsp; Jouer au morpion avec un(e) collègue
                     </Link>
                     <HashLink to="/portefolio/#contact" className="page__link">
                         <i className="fa-solid fa-satellite-dish"></i>

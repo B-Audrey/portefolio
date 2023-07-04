@@ -18,7 +18,7 @@ const Home = () => {
             <Autotext className="header__text" />
             <div className="homeButtons">
               <Button text="Atterrir sur mon profil" hashLink="profil"/>
-              <Button text="Jouer avec un ami" link="/portefolio/tictactoe"/>
+              <Button text="Jouer avec un(e) ami(e)" link="/portefolio/tictactoe"/>
               <Button text="Consulter mes réalisations" hashLink="projets"/>
             </div>
         </header>
