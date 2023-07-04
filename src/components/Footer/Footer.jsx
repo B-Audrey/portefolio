@@ -44,8 +44,7 @@ const Footer = () => {
                     <h4>Mentions</h4>
                     <span className="mention">
                         <i className="fa-solid fa-image"></i>
-                        <p>&nbsp; Images libres de droit :&nbsp;</p>
-                        <Link to="http://www.freepik.com" target="_blank">Designed by catalyststuff / Freepik</Link>
+                        <p>&nbsp; Images libres de droits</p>
                     </span>
                 </div>
             </div>
