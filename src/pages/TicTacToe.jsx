@@ -1,6 +1,5 @@
 import '../styles/TicTacToe.scss';
 import Board from '../components/Board/Board';
-import Button from '../components/Button/Button'
 import { HashLink } from 'react-router-hash-link';
 
 const TicTacToe = () => {

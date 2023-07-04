@@ -11,10 +11,8 @@ import data from "../data.json";
 import { Link } from "react-router-dom";
 
 const Home = () => {
-    console.log(data)
     return (
         <>
-        
         <header id='home'>
             <Header />
             <Autotext className="header__text" />
