@@ -13,11 +13,11 @@ import Autotext from "../components/Autotext/Autotext";
 import data from "../data.json";
 import { Link } from "react-router-dom";
 
-
 const Home = () => {
     console.log(data)
     return (
         <>
+        
         <header id='home'>
             <Header />
             <Autotext className="header__text" />
@@ -28,6 +28,7 @@ const Home = () => {
             </div>
         </header>
         <main className="mainContent" id="profil">
+          <div className="parallax">
             <article className="profil" >
                 <div className="profil__perso">
                   <Card />
@@ -60,6 +61,7 @@ const Home = () => {
             <div className='footerImg'>
               <ImageBloc img={fuseeAstronaute} />
             </div>
+        </div>
         </main>
         </>
     )

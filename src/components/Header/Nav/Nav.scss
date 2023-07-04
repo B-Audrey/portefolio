@@ -24,7 +24,7 @@
     }
     &__btn{
         cursor: pointer;
-        background-color: $main-background-color;
+        background-color: transparent;
         border: none;
         padding: 1% 0%;
         @media(min-width:1000px){
