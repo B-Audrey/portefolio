@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/portefolio/static/css/main.2e656dc1.css",
+    "main.css": "/portefolio/static/css/main.93129bd6.css",
     "main.js": "/portefolio/static/js/main.e0e92981.js",
     "static/js/787.34099e4b.chunk.js": "/portefolio/static/js/787.34099e4b.chunk.js",
     "static/media/Audrey_mini.jpg": "/portefolio/static/media/Audrey_mini.e9825ed1eb83526fabae.jpg",
     "static/media/CV_BONIS_Audrey.pdf": "/portefolio/static/media/CV_BONIS_Audrey.6d589d7c2927eba78f2c.pdf",
     "index.html": "/portefolio/index.html",
-    "main.2e656dc1.css.map": "/portefolio/static/css/main.2e656dc1.css.map",
+    "main.93129bd6.css.map": "/portefolio/static/css/main.93129bd6.css.map",
     "main.e0e92981.js.map": "/portefolio/static/js/main.e0e92981.js.map",
     "787.34099e4b.chunk.js.map": "/portefolio/static/js/787.34099e4b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2e656dc1.css",
+    "static/css/main.93129bd6.css",
     "static/js/main.e0e92981.js"
   ]
 }
